@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGA - Panel de Pruebas</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #333; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h1, h2 { color: #2c3e50; }
+        button { background-color: #3498db; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; transition: 0.3s; }
+        button:hover { background-color: #2980b9; }
+        input { padding: 10px; margin: 5px 0; width: calc(100% - 22px); border: 1px solid #ccc; border-radius: 4px; }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        pre { background: #2d2d2d; color: #a6e22e; padding: 15px; border-radius: 5px; overflow-x: auto; white-space: pre-wrap; font-size: 14px;}
+        .nota { background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 10px; font-size: 14px; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Sistema Gestor de Aulas (SGA) - Prototipo</h1>
+        
+        <div class="card">
+            <h2>1. Importar Asignación Cuatrimestral (Mock)</h2>
+            <div class="nota">
+                <strong>Nota de Iteración:</strong> Para evaluar el motor de reservas y la concurrencia, esta vista utiliza un inyector de datos simulado. La lectura física del archivo .xlsx se implementará en la próxima fase.
+            </div>
+            <button id="btnImportar">📊 Simular Importación de Excel</button>
+        </div>
+
+        <div class="card">
+            <h2>2. Registrar Evento Único</h2>
+            <form id="formEvento">
+                <div class="form-grid">
+                    <input type="text" id="evNombre" placeholder="Nombre del Evento (ej. Congreso IT)" value="Congreso de Informática" required>
+                    <input type="text" id="evEspacio" placeholder="ID Espacio (ej. AULA-101)" value="AULA-101" required>
+                    <input type="text" id="evDia" placeholder="Día (ej. Lunes)" value="Lunes" required>
+                    <input type="date" id="evFecha" value="2026-08-10" required>
+                    <input type="time" id="evInicio" value="10:00" required>
+                    <input type="time" id="evFin" value="13:00" required>
+                </div>
+                <br>
+                <button type="submit" style="background-color: #27ae60;">📅 Registrar Evento</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Respuesta del Servidor (Consola)</h2>
+            <pre id="consola">Esperando acciones...</pre>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
