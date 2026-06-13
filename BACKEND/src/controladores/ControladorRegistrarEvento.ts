@@ -8,7 +8,6 @@ export class ControladorRegistrarEvento {
     this.catalogoEspacios = catalogo;
   }
 
-  // Se agrega la prioridadNueva y un flag opcional para simular la confirmación de la UI
   public registrarEvento(
     nombreEvento: string,
     idEspacio: string,
@@ -19,12 +18,10 @@ export class ControladorRegistrarEvento {
     prioridadNueva: number,
     frontConfirmaExpropiacion: boolean = false,
   ) {
-    // 1. Buscamos el espacio (Mensaje 2 del DSD)
     const e = this.catalogoEspacios.getEspacio(idEspacio);
     if (!e)
       return { exito: false, error: "El espacio no existe en el sistema." };
 
-    // 2. Validamos disponibilidad usando el motor 2D modificado (Mensaje 3)
     const estadoEspacio = e.validarDisponibilidad(
       dia,
       fecha,
@@ -33,40 +30,57 @@ export class ControladorRegistrarEvento {
       hFin,
     );
 
+    let mensajeFinal = "Evento registrado con éxito en el espacio asignado.";
+    let estadoFinal = "REGISTRO_NORMAL";
+
     if (!estadoEspacio.libre && estadoEspacio.actividadConflictiva) {
       const actConflictiva = estadoEspacio.actividadConflictiva;
 
-      // 3. COMPARTIMOS PRIORIDAD (Mensaje 4)
-      const sePuedeExpropiar = prioridadNueva > actConflictiva.getPrioridad();
+      // --- INICIO DEL BLINDAJE ---
+      // Forzamos a que sean números reales para evitar que JS compare textos
+      const pesoEvento = Number(prioridadNueva);
+      const pesoMateria = Number(actConflictiva.getPrioridad());
+
+      console.log(
+        `[DEBUG] ⚔️ Conflicto detectado: Evento (Prioridad ${pesoEvento}) vs ${actConflictiva.getNombre()} (Prioridad ${pesoMateria})`,
+      );
+
+      const sePuedeExpropiar = pesoEvento > pesoMateria;
+      // --- FIN DEL BLINDAJE ---
 
       if (sePuedeExpropiar) {
-        // 4. SOLICITAR CONFIRMACIÓN (Mensaje 5)
-        // Si el front todavía no mandó el "OK", cortamos acá y le preguntamos
+        console.log(
+          `[DEBUG] 🟢 El evento gana por prioridad. Solicitando expropiación...`,
+        );
         if (!frontConfirmaExpropiacion) {
           return {
             exito: false,
             accion: "solicitarConfirmacion",
-            mensaje: `El aula está ocupada por una actividad de menor prioridad. ¿Desea expropiar el espacio y reprogramar la actividad actual?`,
+            mensaje: `El aula está ocupada por ${actConflictiva.getNombre()} (prioridad menor). ¿Desea expropiar el espacio y reprogramar la actividad actual?`,
           };
         }
 
-        // 5. EXPROPIACIÓN CONFIRMADA (Mensajes 6 y 7)
         this.confirmarExpropiacion();
+
         actConflictiva.cambiarEstado("A Reprogramar");
+
+        this.notificarResponsable();
+
+        mensajeFinal = `Evento registrado por Alta Prioridad. Se desplazó: ${actConflictiva.getNombre()}`;
+        estadoFinal = "EXPROPIACION_REALIZADA";
       } else {
-        // Rechazo: El evento nuevo no tiene peso suficiente
+        console.log(
+          `[DEBUG] 🔴 El evento pierde. La materia tiene prioridad igual o mayor.`,
+        );
         return {
           exito: false,
-          error:
-            "Colisión: El aula está ocupada por una actividad de igual o mayor prioridad.",
+          error: `Colisión: El aula está ocupada por ${actConflictiva.getNombre()} que tiene prioridad ${pesoMateria}.`,
         };
       }
     }
 
-    // 6. CREACIÓN Y VINCULACIÓN DEL EVENTO GANADOR (Mensajes 8 y 9)
     const nuevoEvento = new Evento(
       nombreEvento,
-      dia,
       fecha,
       hInicio,
       hFin,
@@ -74,19 +88,13 @@ export class ControladorRegistrarEvento {
     );
     e.agregarEvento(nuevoEvento);
 
-    // 7. NOTIFICACIÓN (Mensaje 10)
-    this.notificarResponsable();
-
-    // Mensaje 11
     return {
       exito: true,
-      mensaje:
-        "Evento registrado por Alta Prioridad. Se desplazaron: Análisis Matemático",
-      estado: "EXPROPIACION_REALIZADA",
+      mensaje: mensajeFinal,
+      estado: estadoFinal,
     };
   }
 
-  // --- Métodos privados para respetar tu diagrama ---
   private confirmarExpropiacion(): void {
     console.log("[Controlador] Acción confirmada por el usuario.");
   }

@@ -28,6 +28,7 @@ export class Materia {
   ): void {
     // 3. Le pasamos el Docente al constructor de la Asignación
     const nuevaAsignacion = new Asignacion(
+      this.nombre,
       e,
       d,
       diaSemana,

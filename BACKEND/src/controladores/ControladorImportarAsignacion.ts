@@ -84,11 +84,18 @@ export class ControladorImportarAsignacion {
           mensaje: "Asignación y sesiones creadas correctamente",
         });
       } else {
-        // 6. RECHAZO POR COLISIÓN
+        // 6. RECHAZO POR COLISIÓN (Aprovechando el polimorfismo)
+
+        // Extraemos el nombre de la actividad que nos devolvió el motor 2D
+        // Usamos el signo de pregunta (?) por seguridad, por si llega undefined
+        const nombreConflicto = estadoEspacio.actividadConflictiva
+          ? estadoEspacio.actividadConflictiva.getNombre()
+          : "otra actividad";
+
         resultados.push({
           fila,
           exito: false,
-          error: `Colisión de horarios detectada en ${fila.idEspacio}. El aula está ocupada.`,
+          error: `Colisión en ${fila.idEspacio}. El aula ya está ocupada por: ${nombreConflicto}`,
         });
       }
     }

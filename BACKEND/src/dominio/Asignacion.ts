@@ -2,6 +2,7 @@ import { Docente } from "./Docente";
 import { Espacio } from "./Espacio";
 
 export class Asignacion {
+  private nombre: string;
   private diaSemana: string;
   private fInicio: string;
   private fFin: string;
@@ -13,6 +14,7 @@ export class Asignacion {
   private prioridad: number; // NUEVO
 
   constructor(
+    nombre: string,
     espacio: Espacio,
     docente: Docente,
     diaSemana: string,
@@ -21,6 +23,7 @@ export class Asignacion {
     hInicio: string,
     hFin: string,
   ) {
+    this.nombre = nombre;
     this.espacio = espacio;
     this.docente = docente;
     this.diaSemana = diaSemana;
@@ -58,6 +61,15 @@ export class Asignacion {
   // NUEVOS MÉTODOS PARA EL DIAGRAMA DE SECUENCIA
   public getPrioridad(): number {
     return this.prioridad;
+  }
+
+  public getEstado(): string {
+    return this.estado;
+  }
+
+  // NUEVO: Método para cumplir con el polimorfismo sin romper el importador actual
+  public getNombre(): string {
+    return this.nombre;
   }
 
   public cambiarEstado(nuevoEstado: string): void {
