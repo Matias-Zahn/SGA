@@ -1,0 +1,14 @@
+{
+  "name": "sga",
+  "version": "1.0.0",
+  "description": "Sistema Gestor de Aulas - monorepo (BACKEND + FRONTEND-REACT)",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n BACKEND,FRONTEND -c blue,magenta \"npm run dev --prefix BACKEND\" \"npm run dev --prefix FRONTEND-REACT\"",
+    "install:all": "npm install && npm install --prefix BACKEND && npm install --prefix FRONTEND-REACT",
+    "build": "npm run build --prefix FRONTEND-REACT"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
