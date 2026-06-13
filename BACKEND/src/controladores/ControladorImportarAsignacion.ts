@@ -58,7 +58,7 @@ export class ControladorImportarAsignacion {
       }
 
       // 4. VALIDACIÓN DE COLISIÓN (El motor 2D)
-      const disponible = e.validarDisponibilidad(
+      const estadoEspacio = e.validarDisponibilidad(
         fila.dia,
         fila.fInicio,
         fila.fFin,
@@ -66,9 +66,8 @@ export class ControladorImportarAsignacion {
         fila.hFin,
       );
 
-      if (disponible) {
-        // 5. CREACIÓN REAL DE LA ASIGNACIÓN (Paso 9 y 10 del Diagrama de Secuencia)
-        // Reemplazamos el viejo e.ocupar() por la delegación a la Materia (Patrón Creador)
+      if (estadoEspacio.libre) {
+        // 5. CREACIÓN REAL DE LA ASIGNACIÓN
         m.crearAsignacion(
           e,
           d,
@@ -89,7 +88,7 @@ export class ControladorImportarAsignacion {
         resultados.push({
           fila,
           exito: false,
-          error: `Colisión de horarios detectada para el espacio ${fila.idEspacio}`,
+          error: `Colisión de horarios detectada en ${fila.idEspacio}. El aula está ocupada.`,
         });
       }
     }

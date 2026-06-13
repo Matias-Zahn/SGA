@@ -18,7 +18,6 @@ export class Espacio {
     return this.idEspacio;
   }
 
-  // Este método es necesario en OOP para mantener la relación bidireccional en memoria
   public agregarAsignacion(a: Asignacion): void {
     this.asignacionesVinculadas.push(a);
   }
@@ -27,14 +26,18 @@ export class Espacio {
     this.eventosVinculados.push(ev);
   }
 
-  // EL MOTOR 2D ACTUALIZADO leyendo Asignaciones y Eventos reales
+  // EL MOTOR 2D MODIFICADO: Ahora devuelve quién causó la colisión
   public validarDisponibilidad(
     dia: string,
     fInicio: string,
     fFin: string,
     hInicio: string,
     hFin: string,
-  ): boolean {
+  ): {
+    libre: boolean;
+    actividadConflictiva?: Asignacion | Evento;
+    tipo?: string;
+  } {
     // 1. VERIFICAR CONTRA ASIGNACIONES CUATRIMESTRALES
     const asignacionesDelDia = this.asignacionesVinculadas.filter(
       (a) => a.getDia() === dia,
@@ -48,7 +51,12 @@ export class Espacio {
 
       if (chocanFechas && chocanHoras) {
         console.log(`❌ Colisión detectada con una Asignación regular.`);
-        return false;
+        // DEVOLVEMOS EL OBJETO CON EL QUE CHOCAMOS
+        return {
+          libre: false,
+          actividadConflictiva: asignacion,
+          tipo: "Asignacion",
+        };
       }
     }
 
@@ -65,11 +73,12 @@ export class Espacio {
 
       if (chocanFechas && chocanHoras) {
         console.log(`❌ Colisión detectada con un Evento.`);
-        return false;
+        // DEVOLVEMOS EL OBJETO CON EL QUE CHOCAMOS
+        return { libre: false, actividadConflictiva: evento, tipo: "Evento" };
       }
     }
 
     // Si pasó los dos filtros, el aula está verdaderamente libre
-    return true;
+    return { libre: true };
   }
 }

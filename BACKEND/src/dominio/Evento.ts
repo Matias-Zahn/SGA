@@ -4,6 +4,8 @@ export class Evento {
   private fecha: string;
   private hInicio: string;
   private hFin: string;
+  private prioridad: number; // NUEVO
+  private estado: string; // NUEVO
 
   constructor(
     nombre: string,
@@ -11,31 +13,43 @@ export class Evento {
     fecha: string,
     hInicio: string,
     hFin: string,
+    prioridad: number, // NUEVO: Se recibe desde el Controlador/Front
   ) {
     this.nombreEvento = nombre;
     this.diaSemana = dia;
     this.fecha = fecha;
     this.hInicio = hInicio;
     this.hFin = hFin;
+    this.prioridad = prioridad;
+    this.estado = "Confirmado"; // Estado inicial por defecto
   }
 
-  // Getters para que el motor de colisiones pueda leer los horarios
+  // Getters existentes...
   public getDia(): string {
     return this.diaSemana;
   }
-
-  // El truco de 2D: la fecha de inicio y fin es la misma para un evento de 1 día
   public getFInicio(): string {
     return this.fecha;
   }
   public getFFin(): string {
     return this.fecha;
   }
-
   public getHInicio(): string {
     return this.hInicio;
   }
   public getHFin(): string {
     return this.hFin;
+  }
+
+  // NUEVOS MÉTODOS PARA EL DIAGRAMA DE SECUENCIA
+  public getPrioridad(): number {
+    return this.prioridad;
+  }
+
+  public cambiarEstado(nuevoEstado: string): void {
+    this.estado = nuevoEstado;
+    console.log(
+      `[Dominio] El evento '${this.nombreEvento}' cambió su estado a: ${this.estado}`,
+    );
   }
 }

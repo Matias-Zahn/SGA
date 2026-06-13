@@ -69,7 +69,16 @@ app.post("/api/importar-asignacion", (req: Request, res: Response) => {
 
 // --- ENDPOINT 2: REGISTRAR EVENTO (Formulario Web) ---
 app.post("/api/registrar-evento", (req: Request, res: Response) => {
-  const { nombreEvento, idEspacio, dia, hInicio, hFin, fecha } = req.body;
+  const {
+    nombreEvento,
+    idEspacio,
+    dia,
+    hInicio,
+    hFin,
+    fecha,
+    prioridadNueva,
+    frontConfirmaExpropiacion,
+  } = req.body;
 
   const resultado = controladorEvento.registrarEvento(
     nombreEvento,
@@ -78,12 +87,20 @@ app.post("/api/registrar-evento", (req: Request, res: Response) => {
     fecha,
     hInicio,
     hFin,
+    prioridadNueva,
+    frontConfirmaExpropiacion,
   );
 
+  // 3. Manejo de las tres respuestas posibles
   if (resultado.exito) {
+    // Éxito absoluto (ya sea directo o tras expropiar)
     res.status(200).json(resultado);
+  } else if (resultado.accion === "solicitarConfirmacion") {
+    // Conflicto "blando": Hay choque, pero el front tiene que preguntar
+    res.status(409).json(resultado);
   } else {
-    res.status(409).json(resultado); // 409 Conflict por choque de horarios
+    // Conflicto "duro": Choque con algo de igual o mayor prioridad (Rechazo total)
+    res.status(409).json(resultado);
   }
 });
 

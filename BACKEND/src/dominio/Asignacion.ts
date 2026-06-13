@@ -8,10 +8,10 @@ export class Asignacion {
   private hInicio: string;
   private hFin: string;
   private estado: string;
-  private espacio: Espacio; // Referencia al aula asignada
-  private docente: Docente; // Referencia al aula asignada
+  private espacio: Espacio;
+  private docente: Docente;
+  private prioridad: number; // NUEVO
 
-  // El constructor de tu DCD (Mensaje 5 del Diagrama de Secuencia)
   constructor(
     espacio: Espacio,
     docente: Docente,
@@ -29,18 +29,16 @@ export class Asignacion {
     this.hInicio = hInicio;
     this.hFin = hFin;
     this.estado = "Activa";
+    this.prioridad = 1; // NUEVO: Prioridad base para clases regulares
   }
 
-  // Mensaje 6 del Diagrama de Secuencia
   public generarSesiones(): void {
-    // Acá iría la lógica de calcular los días exactos entre fInicio y fFin.
-    // Para la demo, podemos dejar un console.log que demuestre que el método se ejecuta.
     console.log(
       `[Dominio] Generando sesiones individuales para los días ${this.diaSemana}...`,
     );
   }
 
-  // Getters necesarios para que el Espacio pueda leer estos datos
+  // Getters existentes...
   public getDia(): string {
     return this.diaSemana;
   }
@@ -55,5 +53,17 @@ export class Asignacion {
   }
   public getHFin(): string {
     return this.hFin;
+  }
+
+  // NUEVOS MÉTODOS PARA EL DIAGRAMA DE SECUENCIA
+  public getPrioridad(): number {
+    return this.prioridad;
+  }
+
+  public cambiarEstado(nuevoEstado: string): void {
+    this.estado = nuevoEstado;
+    console.log(
+      `[Dominio] La asignación de los ${this.diaSemana} cambió su estado a: ${this.estado}`,
+    );
   }
 }
