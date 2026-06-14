@@ -1,4 +1,8 @@
 CLAUDE.md
 /node_modules
+/BACKEND/node_modules
+/FRONTEND-REACT/node_modules
 /.claude
+/.superpowers
 /dist
+/docs

@@ -1,0 +1,3537 @@
+[
+  {
+    "codigo": "01",
+    "nombre": "Geología General",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "1",
+    "nombre": "Contabilidad I",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "151",
+    "nombre": "Matemática I",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "3",
+    "nombre": "Matemática I",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "FO030",
+    "nombre": "Introducción a las ciencias forestales y Dendrometría",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "FO031",
+    "nombre": "Botánica General",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "MA051",
+    "nombre": "Laboratorio I",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA800",
+    "nombre": "Pedagogía",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "PAJ001",
+    "nombre": "Introducción al Derecho",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ002",
+    "nombre": "Derecho Romano",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ003",
+    "nombre": "Derecho Penal I",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ004",
+    "nombre": "Derecho Civil I",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ005",
+    "nombre": "Filosofía del Derecho",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "QU001",
+    "nombre": "Química",
+    "anio": 1,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "02",
+    "nombre": "Matemática",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "03",
+    "nombre": "Química General",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "111",
+    "nombre": "Introducción a la Administración",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "112",
+    "nombre": "Introducción a las Ciencias Sociales",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "113",
+    "nombre": "Introducción a la Contabilidad",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "114",
+    "nombre": "Área Propedéutica",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "141",
+    "nombre": "Economía I",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "2",
+    "nombre": "Economía I",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "CR001",
+    "nombre": "Toxicología Forense",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CR002",
+    "nombre": "Accidentología y Emergentología",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CR003",
+    "nombre": "Psicopatología Forense",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "IF001",
+    "nombre": "Elementos de Informática",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "IF002",
+    "nombre": "Expresión de Problemas y Algoritmos",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "JU001",
+    "nombre": "Introducción al Derecho",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU002",
+    "nombre": "Historia del Derecho",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU003",
+    "nombre": "Derechos Político y Económico",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "MA001",
+    "nombre": "Álgebra y Geometría",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 165
+  },
+  {
+    "codigo": "MA002",
+    "nombre": "Análisis Matemático I",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 165
+  },
+  {
+    "codigo": "MA045",
+    "nombre": "Álgebra",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "TC1",
+    "nombre": "Introducción a la Criminalística",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC2",
+    "nombre": "Contenidos de Biología General",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC3",
+    "nombre": "Introducción al Derecho",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC1",
+    "nombre": "Derecho Civil",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC2",
+    "nombre": "Economía",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC3",
+    "nombre": "Relaciones Humanas y Comunicación",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "04",
+    "nombre": "Física",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "05",
+    "nombre": "Química Inorgánica",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "121",
+    "nombre": "Introducción a la Economía",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "122",
+    "nombre": "Matemática I",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "123",
+    "nombre": "Tecnología de la Información",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "124",
+    "nombre": "Introducción al Derecho",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "131",
+    "nombre": "Procesamiento de Datos",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "161",
+    "nombre": "Introducción a la Filosofía",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "4",
+    "nombre": "Derecho Civil",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "5",
+    "nombre": "Procesamiento de Datos",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "6",
+    "nombre": "Introducción a la Filosofía",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "CR004",
+    "nombre": "Seminario de Informática Forense",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CR005",
+    "nombre": "Metodología de la Investigación Criminal",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CR006",
+    "nombre": "Victimología",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "FI001",
+    "nombre": "Física I",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "FI008",
+    "nombre": "Física I",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "IF003",
+    "nombre": "Algorítmica y Programación I",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "JU004",
+    "nombre": "Filosofía del Derecho",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU005",
+    "nombre": "Derecho Constitucional",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU006",
+    "nombre": "Nociones Elementales del Derecho Civil",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "MA003",
+    "nombre": "Análisis Matemático II",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "MA008",
+    "nombre": "Elementos de Lógica y Matemática Discreta",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "MA046",
+    "nombre": "Análisis Matemático",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "MA050",
+    "nombre": "Aritmética",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "TC4",
+    "nombre": "Derechos Humanos y Garantías",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC5",
+    "nombre": "Sociología",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC6",
+    "nombre": "Antropología Forense",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC4",
+    "nombre": "Derecho Comercial",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC5",
+    "nombre": "Derechos Reales",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC6",
+    "nombre": "Mercadotecnia y Marketing",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "06",
+    "nombre": "Paleontología",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "07",
+    "nombre": "Geoquímica General",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "212",
+    "nombre": "Contabilidad II",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "2315",
+    "nombre": "Introducción a las Ciencias Agropecuarias y Forestales",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "7",
+    "nombre": "Contabilidad II",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "ES008",
+    "nombre": "Estabilidad",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "ES010",
+    "nombre": "Mecánica y Tecnología de los Materiales",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "MA056",
+    "nombre": "Laboratorio II",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA801",
+    "nombre": "Psicología Evolutiva",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA802",
+    "nombre": "Didáctica General",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "PAJ006",
+    "nombre": "Derecho Constitucional",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ007",
+    "nombre": "Derecho Laboral y de Seguridad Social",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ008",
+    "nombre": "Derecho Penal II",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ009",
+    "nombre": "Derecho Comercial I",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ010",
+    "nombre": "Derecho Civil II",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ011",
+    "nombre": "Derecho Administrativo",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PE001",
+    "nombre": "Geología I",
+    "anio": 2,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "08",
+    "nombre": "Estadística",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "09",
+    "nombre": "Mineralogía General",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "211",
+    "nombre": "Contabilidad Básica",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "213",
+    "nombre": "Lógica",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "214",
+    "nombre": "Los Procesos de la Administración",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "215",
+    "nombre": "Ofimática",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "216",
+    "nombre": "Administración de la Producción y Servucción I",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "221",
+    "nombre": "Derecho Privado",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "232",
+    "nombre": "Administración General",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "242",
+    "nombre": "Realidad Económica Regional",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "243",
+    "nombre": "Microeconomía",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "252",
+    "nombre": "Matemática II",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "263",
+    "nombre": "Epistemología de la Economía",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "264",
+    "nombre": "Historia de la Economía",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "8",
+    "nombre": "Administración General",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "9",
+    "nombre": "Economía II",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "CR007",
+    "nombre": "Seminario de Investigación de Delitos Complejos",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CR008",
+    "nombre": "Formación Práctica Profesional en Derecho Procesal Penal, Civil y Comercial",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CR009",
+    "nombre": "Seminario de Criminología",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "ES003",
+    "nombre": "Estabilidad I",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "FI002",
+    "nombre": "Física II",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "FI004",
+    "nombre": "Termodinámica Básica",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "FO032",
+    "nombre": "Química Orgánica y Biológica",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "IF004",
+    "nombre": "Sistemas y Organizaciones",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "IF005",
+    "nombre": "Arquitectura de Computadoras",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "IF006",
+    "nombre": "Algorítmica y Programación II",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "JU007",
+    "nombre": "Derecho Penal I",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU008",
+    "nombre": "Derechos Humanos y Garantías Constitucionales",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "JU009",
+    "nombre": "Derecho Internacional Público",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "MA042",
+    "nombre": "Análisis Matemático III",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA052",
+    "nombre": "Geometría Métrica",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA053",
+    "nombre": "Principios de Análisis Matemático",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "SI018",
+    "nombre": "Operación de Computadoras",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "TB212",
+    "nombre": "Introducción al Sistema Financiero",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 88
+  },
+  {
+    "codigo": "TB213",
+    "nombre": "Prevención de Lavado de Dinero",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 89
+  },
+  {
+    "codigo": "TB215",
+    "nombre": "Marco Normativo Financiero",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 70
+  },
+  {
+    "codigo": "TB216",
+    "nombre": "Ciberseguridad",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 86
+  },
+  {
+    "codigo": "TC7",
+    "nombre": "Práctica Pericial I (Balística)",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC8",
+    "nombre": "Documentología y Archivo",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC9",
+    "nombre": "Elementos de Derecho Penal",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TD210",
+    "nombre": "Introducción a las Finanzas Descentralizadas",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 86
+  },
+  {
+    "codigo": "TMC7",
+    "nombre": "Tasación I",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC8",
+    "nombre": "Derecho Notarial y Registral",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC9",
+    "nombre": "Derecho Procesal Civil y Comercial",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "10",
+    "nombre": "Derecho Comercial I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "11",
+    "nombre": "Matemática II",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "12",
+    "nombre": "Lógica y Metodología de las Ciencias",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "222",
+    "nombre": "Derecho Comercial I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "223",
+    "nombre": "Derecho Privado I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "224",
+    "nombre": "Administración de lo Público I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "225",
+    "nombre": "Estadística I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "226",
+    "nombre": "Organización y Métodos",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "227",
+    "nombre": "Matemática II",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "244",
+    "nombre": "Macroeconomía",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "245",
+    "nombre": "Análisis Económico de Empresas",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "246",
+    "nombre": "Taller de Vinculación con el Medio I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "253",
+    "nombre": "Matemática Financiera",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "254",
+    "nombre": "Estadística I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "262",
+    "nombre": "Lógica y Metodología de las Ciencias",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "265",
+    "nombre": "Historia Económica Argentina",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "CR010",
+    "nombre": "Gestión de Procesos",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CR011",
+    "nombre": "Seminario de Investigación de Delitos Informáticos",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CR012",
+    "nombre": "Trabajo de Investigación Final",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "EE016",
+    "nombre": "Teoría de Circuitos I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "ES004",
+    "nombre": "Estabilidad II",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "FI003",
+    "nombre": "Física III",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "FO034",
+    "nombre": "Meteorología y Fenología",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO035",
+    "nombre": "Zoología Forestal",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "IF007",
+    "nombre": "Bases de Datos I",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "IF008",
+    "nombre": "Programación Orientada a Objetos",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "IF038",
+    "nombre": "Introducción a la Concurrencia",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "JU010",
+    "nombre": "Derecho Penal II",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU011",
+    "nombre": "Sociología",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "JU012",
+    "nombre": "Derecho de las Obligaciones",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "MA006",
+    "nombre": "Estadística",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "MA007",
+    "nombre": "Programación Básica y Métodos Numéricos",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "MA054",
+    "nombre": "Álgebra Lineal",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA055",
+    "nombre": "Matemática Discreta",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "QU003",
+    "nombre": "Termodinámica Aplicada",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "TB221",
+    "nombre": "Interpretación de información contable y proyectos de inversión",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 131
+  },
+  {
+    "codigo": "TB222",
+    "nombre": "Gestión Integral de Riesgos en Entidades Financieras",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 89
+  },
+  {
+    "codigo": "TB223",
+    "nombre": "Procesos y procedimientos financieros",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 89
+  },
+  {
+    "codigo": "TB224",
+    "nombre": "Administración de Servicios",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 138
+  },
+  {
+    "codigo": "TB225",
+    "nombre": "Seminario de Prácticas Técnicas Bancarias Supervisadas",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 106
+  },
+  {
+    "codigo": "TC10",
+    "nombre": "Estadística",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC11",
+    "nombre": "Físico Química",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC12",
+    "nombre": "Práctica Profesional (Integración)",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TD217",
+    "nombre": "Criptoeconomía",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 144
+  },
+  {
+    "codigo": "TD218",
+    "nombre": "Pagos digitales y Billeteras electrónicas",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 144
+  },
+  {
+    "codigo": "TD219",
+    "nombre": "Inteligencia Artificial aplicada a las Finanzas",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 72
+  },
+  {
+    "codigo": "TD220",
+    "nombre": "Seminario de Prácticas Técnicas Supervisadas en Finanzas Digitales",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "TMC10",
+    "nombre": "Técnicas de Subasta, Remates y Corretajes",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC11",
+    "nombre": "Tasación II",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC12",
+    "nombre": "Administración de Consorcios",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "14",
+    "nombre": "Geomorfología",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "313",
+    "nombre": "Contabilidad III",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "314",
+    "nombre": "Contabilidad de Costos",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "CI002",
+    "nombre": "Arquitectura",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "CI011",
+    "nombre": "Hidráulica General",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "CI024",
+    "nombre": "Topografía",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "EE001",
+    "nombre": "Circuitos Electrónicos I",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "EE014",
+    "nombre": "Sistemas Digitales I",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "ES001",
+    "nombre": "Ciencia y Tecnología de los Materiales",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "ES002",
+    "nombre": "Elasticidad",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "ES005",
+    "nombre": "Estabilidad III",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "ES009",
+    "nombre": "Tecnología de los Materiales",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "ES012",
+    "nombre": "Mecánica",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "FA011",
+    "nombre": "Seguridad en el Trabajo",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "FI005",
+    "nombre": "Mecánica Teórica",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "II003",
+    "nombre": "Investigación Operativa",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "MA060",
+    "nombre": "Didáctica de la Matemática",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "ME014",
+    "nombre": "Mecánica y Mecanismos",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "PAJ012",
+    "nombre": "Derecho Civil III",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ013",
+    "nombre": "Derecho Procesal Penal",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ014",
+    "nombre": "Derecho Procesal Civil y Comercial",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PAJ015",
+    "nombre": "Práctica Profesional I",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "PAJ016",
+    "nombre": "Práctica Profesional II",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "PE002",
+    "nombre": "Fluidodinámica Aplicada",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "PE003",
+    "nombre": "Geología II",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU002",
+    "nombre": "Química Orgánica Aplicada",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU005",
+    "nombre": "Fisicoquímica",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU006",
+    "nombre": "Fenómenos de Transporte",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU007",
+    "nombre": "Servicios Industriales",
+    "anio": 3,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "231",
+    "nombre": "Contabilidad de Costos",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "233",
+    "nombre": "Administración de la Actividad en los Mercados I",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "234",
+    "nombre": "Administración de la Información I",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "235",
+    "nombre": "Derecho Administrativo I",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "236",
+    "nombre": "Administración Financiera I",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "237",
+    "nombre": "Seminario Práctica Técnica Supervisada",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "3112",
+    "nombre": "Contabilidad de Costos Aplicados",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "3115",
+    "nombre": "Régimen Económico Financiero del Estado",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "323",
+    "nombre": "Derecho Comercial II",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "328",
+    "nombre": "Marco Legal de los Procedimientos Administrativos",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "3316",
+    "nombre": "Organización de la Producción y Comercialización",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "3318",
+    "nombre": "Planeamiento y Control del Estado",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "333",
+    "nombre": "Análisis de Sistemas de Información",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "347",
+    "nombre": "Finanzas Corporativas",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "348",
+    "nombre": "Evaluación de Proyectos",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "349",
+    "nombre": "Taller de Vinculación con el Medio II",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "353",
+    "nombre": "Estadística",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "355",
+    "nombre": "Estadística II",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "3610",
+    "nombre": "Historia de la Cultura",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "371",
+    "nombre": "Introducción al Turismo",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "8000",
+    "nombre": "Idioma Extranjero",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "CI008",
+    "nombre": "Geología Aplicada",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 45
+  },
+  {
+    "codigo": "CI012",
+    "nombre": "Hidráulica I",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "EE009",
+    "nombre": "Instrumentos y Mediciones I",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "EE013",
+    "nombre": "Señales y Sistemas",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "ES006",
+    "nombre": "Materiales I",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "FA009",
+    "nombre": "Seguridad en Obras",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FA010",
+    "nombre": "Prevención de Incendios",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "FO037",
+    "nombre": "Fisiología Vegetal",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO038",
+    "nombre": "Suelos Forestales",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO039",
+    "nombre": "Topografía y Teledetección",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "FO040",
+    "nombre": "Economía General",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "IF009",
+    "nombre": "Laboratorio de Programación y Lenguajes",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "IF010",
+    "nombre": "Análisis y Diseño de Sistemas",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "IF011",
+    "nombre": "Sistemas Operativos",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "II002",
+    "nombre": "Costos Industriales",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "JU013",
+    "nombre": "Personas Jurídicas Civiles y Comerciales",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU014",
+    "nombre": "Contratos Civiles y Comerciales",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU015",
+    "nombre": "Derecho del Consumidor y del Usuario",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "MA057",
+    "nombre": "Análisis de Variable Compleja",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA058",
+    "nombre": "Cálculo Numérico",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA066",
+    "nombre": "Topología General",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "MA803",
+    "nombre": "Tecnología Educativa",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "PE004",
+    "nombre": "Laboratorio de Ensayos I",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "QU004",
+    "nombre": "Química Analítica",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "TC13",
+    "nombre": "Derecho Procesal Penal",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC14",
+    "nombre": "Metodología de la Investigación",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC15",
+    "nombre": "Psicología",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC13",
+    "nombre": "Ética y Deontología Profesional",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC14",
+    "nombre": "Tasación III",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TMC15",
+    "nombre": "Seminario de Integración – Práctica Profesional",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "13",
+    "nombre": "Geología Estructural",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "18",
+    "nombre": "Finanzas Públicas",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "19",
+    "nombre": "Sociología",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "3005",
+    "nombre": "Seminario de Aplicación",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "311",
+    "nombre": "Contabilidad Pública",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "3111",
+    "nombre": "Técnica y Práctica Impositiva",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "3113",
+    "nombre": "Seminario Taller Aplicado",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "312",
+    "nombre": "Macroeconomía",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "315",
+    "nombre": "Administración de la Información II",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 80
+  },
+  {
+    "codigo": "316",
+    "nombre": "Sociología I",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "327",
+    "nombre": "Derecho Individual del Trabajo",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "3322",
+    "nombre": "Gestión de Empresas de Turismo I",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "3323",
+    "nombre": "Sociología de las Organizaciones",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "334",
+    "nombre": "Investigación Operativa",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "3410",
+    "nombre": "Economía del Sector Público",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "3411",
+    "nombre": "Economía Matemática",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "3412",
+    "nombre": "Macroeconomía Superior",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "343",
+    "nombre": "Finanzas Públicas",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "363",
+    "nombre": "Sociología",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "372",
+    "nombre": "Geografía Económica del Turismo",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "373",
+    "nombre": "Patrimonio Turístico I",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CI013",
+    "nombre": "Hidráulica II",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "EE008",
+    "nombre": "Fundamentos de Electrotecnia",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "EE017",
+    "nombre": "Teoría de Circuitos II",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "ES007",
+    "nombre": "Materiales II",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "FI006",
+    "nombre": "Física General",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "FO041",
+    "nombre": "Dendrología",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO042",
+    "nombre": "Genética y Mejoramiento Forestal",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO043",
+    "nombre": "Ecología y Fitogeografía",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "IF012",
+    "nombre": "Desarrollo de Software",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "IF013",
+    "nombre": "Fundamentos Teóricos de Informática",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "II001",
+    "nombre": "Administración de Empresas",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "JU016",
+    "nombre": "Derecho Laboral y de la Seguridad Social",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU017",
+    "nombre": "Derechos Reales",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU018",
+    "nombre": "Derecho Procesal Civil y Comercial",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU019",
+    "nombre": "Derecho de la Integración",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "MA047",
+    "nombre": "Complementos Matemáticos",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "MA059",
+    "nombre": "Ecuaciones Diferenciales Ordinarias",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA067",
+    "nombre": "Geometría Diferencial",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "MA068",
+    "nombre": "Teoría de la medida",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "MA804",
+    "nombre": "Sistema Educativo e Instituciones",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "ME020",
+    "nombre": "Termodinámica Aplicada (M)",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "TC16",
+    "nombre": "Siniestralidad Vial",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC17",
+    "nombre": "Práctica Pericial II (Papiloscopía)",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "TC18",
+    "nombre": "Metodología de la Investigación Criminalística",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "15",
+    "nombre": "Suelos",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "16",
+    "nombre": "Topografía y Carteo Geológico",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "17",
+    "nombre": "Fotogeología y Teledetección",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "20",
+    "nombre": "Geología de Yacimientos Minerales",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "415",
+    "nombre": "Contabilidad IV",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "CI004",
+    "nombre": "Construcción de Edificios",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "CI007",
+    "nombre": "Construcciones Metálicas y de Madera",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "CI009",
+    "nombre": "Geotecnia",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "CI010",
+    "nombre": "Hidráulica Aplicada",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "CI015",
+    "nombre": "Hormigón I",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "CI019",
+    "nombre": "Instalaciones en Edificios",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "CI022",
+    "nombre": "Planeamiento y Urbanismo",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "EE002",
+    "nombre": "Circuitos Electrónicos II",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "EE003",
+    "nombre": "Comunicaciones I",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "EE005",
+    "nombre": "Control I",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "EE011",
+    "nombre": "Máquinas e Instalaciones Eléctricas",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "EE015",
+    "nombre": "Sistemas Digitales II",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "FA016",
+    "nombre": "Higiene en el Trabajo",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "FA017",
+    "nombre": "Práctica Profesional",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "II005",
+    "nombre": "Operaciones Industriales",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "II006",
+    "nombre": "Organización Industrial",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "II007",
+    "nombre": "Sistemas de Información",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "MA065",
+    "nombre": "Práctica Docente",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 200
+  },
+  {
+    "codigo": "ME001",
+    "nombre": "Mecánica de Fabricación",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "ME005",
+    "nombre": "Mecánica de los Fluidos",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "ME007",
+    "nombre": "Mecanismos y Elementos de Máquina",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "ME024",
+    "nombre": "Sistemas de Control",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "PE005",
+    "nombre": "Geofísica Aplicada",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "PE008",
+    "nombre": "Perforación",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 210
+  },
+  {
+    "codigo": "PE009",
+    "nombre": "Reservorios",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 180
+  },
+  {
+    "codigo": "QU008",
+    "nombre": "Operaciones Físicas I",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU009",
+    "nombre": "Operaciones Físicas II",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU010",
+    "nombre": "Operaciones Físicas III",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU011",
+    "nombre": "Química Industrial",
+    "anio": 4,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "321",
+    "nombre": "Costos y Gestión",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "322",
+    "nombre": "Estadística II",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "324",
+    "nombre": "Derecho Privado II",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "325",
+    "nombre": "Economía Regional y Sectorial I",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "326",
+    "nombre": "Enfoque de Sistemas",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "416",
+    "nombre": "Impuestos I",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "434",
+    "nombre": "Administración Aplicada",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "4413",
+    "nombre": "Microeconomía Superior",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "4414",
+    "nombre": "Dinero, Crédito y Bancos",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "4415",
+    "nombre": "Estructura de la Producción",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "453",
+    "nombre": "Estadística",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "454",
+    "nombre": "Matemática Financiera",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "456",
+    "nombre": "Econometría",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "466",
+    "nombre": "Metodología de la Investigación Económica",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "474",
+    "nombre": "Patrimonio Turístico II",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CI020",
+    "nombre": "Construcción de Edificios e Instalaciones",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "CI044",
+    "nombre": "Hidrología",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "FA012",
+    "nombre": "Organización Empresarial",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "FA013",
+    "nombre": "Toxicología Laboral",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "FO045",
+    "nombre": "Hidrología y Corrección de Torrentes",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "FO046",
+    "nombre": "Silvicultura 1: Establecimiento de bosques",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO047",
+    "nombre": "Evaluación e Inventario de Recursos Forestales",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "FO048",
+    "nombre": "Biodiversidad y Conservación",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "IF015",
+    "nombre": "Ingeniería de Software",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "IF018",
+    "nombre": "Inteligencia Artificial",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "IF019",
+    "nombre": "Redes y Transmisión de Datos",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "II004",
+    "nombre": "Gestión de la Calidad",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "JU020",
+    "nombre": "Derecho Procesal Penal",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU021",
+    "nombre": "Derecho Digital",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "JU022",
+    "nombre": "Derecho Administrativo",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 112
+  },
+  {
+    "codigo": "JU023",
+    "nombre": "Formación Práctica Profesional I",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "MA062",
+    "nombre": "Estructuras Algebraicas",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "MA069",
+    "nombre": "Estructuras Algebraicas A",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "MA070",
+    "nombre": "Ecuaciones Diferenciales en Derivadas Parciales",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "MA805",
+    "nombre": "Problemática de la educación secundaria y superior",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "ME008",
+    "nombre": "Metrología y Control de Calidad",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "PE006",
+    "nombre": "Instalaciones de Gas y Petróleo",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "331",
+    "nombre": "Epistemología de la Administración",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "332",
+    "nombre": "Derecho Administrativo II",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "335",
+    "nombre": "Psicología",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "336",
+    "nombre": "Administración de la Producción y Servucción II",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 80
+  },
+  {
+    "codigo": "424",
+    "nombre": "Derecho Constitucional y Administrativo",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "4324",
+    "nombre": "Sistemas de Información Aplicados",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "4325",
+    "nombre": "Gestión de Empresas de Turismo II",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "4416",
+    "nombre": "Política Económica",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "4417",
+    "nombre": "Desarrollo y Crecimiento Económico",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "4418",
+    "nombre": "Economía Internacional",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "4419",
+    "nombre": "Taller de Vinculación con el Medio III",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "444",
+    "nombre": "Microeconomía",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "464",
+    "nombre": "Perspectiva Espacio Temporal de la Economía Argentina",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "467",
+    "nombre": "Seminario de Trabajo Final",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CI001",
+    "nombre": "Aprovechamientos Hidráulicos",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "CI003",
+    "nombre": "Arquitectura y Urbanismo",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "CI033",
+    "nombre": "Vías de Comunicación-H",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "CI041",
+    "nombre": "Proyecto I",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "EE025",
+    "nombre": "Electrotecnia y Electrónica Básica",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FA015",
+    "nombre": "Salud Ocupacional",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "FO049",
+    "nombre": "Patología Forestal",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO050",
+    "nombre": "Silvicultura 2: Sistemas Silvícolas",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO051",
+    "nombre": "Aprovechamiento Forestal, Mecanización y caminos",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "IF020",
+    "nombre": "Paradigmas y Lenguajes de Programación",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "IF022",
+    "nombre": "Sistemas Distribuidos",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "IF046",
+    "nombre": "Administración de Redes y Seguridad",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "JU024",
+    "nombre": "Derecho del Transporte, Navegación, y Aeronáutico",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "JU025",
+    "nombre": "Formación Práctica Profesional II",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU026",
+    "nombre": "Derecho Público Provincial y Municipal",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "JU027",
+    "nombre": "Finanzas Públicas y Derecho Tributario",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "MA063",
+    "nombre": "Historia de la Matemática",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "MA806",
+    "nombre": "Investigación Educativa",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "PE007",
+    "nombre": "Laboratorio de Ensayos II",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "22",
+    "nombre": "Geología Económica",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "23",
+    "nombre": "Geología Aplicada a la Ingeniería y al Medio Ambiente",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "24",
+    "nombre": "Geofísica General y Sísmica",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "25",
+    "nombre": "Geología de Yacimientos Combustibles",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "26",
+    "nombre": "Geología Argentina",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "27",
+    "nombre": "Taller de Investigación en Enfermería",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 180
+  },
+  {
+    "codigo": "CI018",
+    "nombre": "Ingeniería Sanitaria",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "CI021",
+    "nombre": "Organización de Obras",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "CI023",
+    "nombre": "Puertos y Vías Navegables",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "CI025",
+    "nombre": "Vías de Comunicación",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "CI031",
+    "nombre": "Hormigón II",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "CI043",
+    "nombre": "Proyecto de Ingeniería Civil - Orientación Hidráulica (Proyecto III)",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "EE007",
+    "nombre": "Electrónica Industrial",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "EE010",
+    "nombre": "Instrumentos y Mediciones II",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "EE019",
+    "nombre": "Proyecto de Ingeniería Electrónica",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 135
+  },
+  {
+    "codigo": "II008",
+    "nombre": "Gestión de la Producción",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 180
+  },
+  {
+    "codigo": "II009",
+    "nombre": "Proyecto de Ingeniería Industrial",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "ME002",
+    "nombre": "Ingeniería en Transporte de Fluidos",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "ME003",
+    "nombre": "Mantenimiento",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "ME004",
+    "nombre": "Máquinas Alternativas",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "ME012",
+    "nombre": "Turbomáquinas",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "PE011",
+    "nombre": "Producción",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 210
+  },
+  {
+    "codigo": "PE012",
+    "nombre": "Proyecto de Ingeniería en Petróleo",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU012",
+    "nombre": "Instrumentación y Control",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU014",
+    "nombre": "Procesos Unitarios",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "QU015",
+    "nombre": "Proyecto de Ingeniería Química",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 150
+  },
+  {
+    "codigo": "TF",
+    "nombre": "Trabajo Final",
+    "anio": 5,
+    "cuatrimestre": 0,
+    "cargaHoraria": 320
+  },
+  {
+    "codigo": "21",
+    "nombre": "Geoquímica Aplicada",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "31",
+    "nombre": "Toxicología de Fármacos",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "34",
+    "nombre": "Emergentología",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "341",
+    "nombre": "Información Contable",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "342",
+    "nombre": "Derecho Laboral y de la Seguridad Social",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "344",
+    "nombre": "Administración de la Actividad en los Mercados II",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 80
+  },
+  {
+    "codigo": "345",
+    "nombre": "Filosofía",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "346",
+    "nombre": "Investigación Operativa",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 32
+  },
+  {
+    "codigo": "35",
+    "nombre": "Ginecología",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "517",
+    "nombre": "Impuestos II",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "518",
+    "nombre": "Práctica Profesional",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "519",
+    "nombre": "Contabilidad Pública",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 128
+  },
+  {
+    "codigo": "5212",
+    "nombre": "Legislación Turística",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "5417",
+    "nombre": "Turismo y Desarrollo Sustentable",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "565",
+    "nombre": "Epistemología",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "CI005",
+    "nombre": "Construcciones Hidráulicas",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "CI042",
+    "nombre": "Proyecto II",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "FA026",
+    "nombre": "Ingeniería Económica y Organización de Obras",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "FO053",
+    "nombre": "Protección Forestal",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO054",
+    "nombre": "Productos y Procesos Mecánicos de la madera",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "FO055",
+    "nombre": "Procesamiento químico y térmico de la madera",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO056",
+    "nombre": "Economía Forestal",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "IF017",
+    "nombre": "Taller de Nuevas Tecnologías",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "IF021",
+    "nombre": "Arquitectura de Redes y Servicios",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "IF027",
+    "nombre": "Modelos y Simulación",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "IF049",
+    "nombre": "Administración de Proyectos",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "IF050",
+    "nombre": "Aplicaciones Web",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "JU028",
+    "nombre": "Derecho de Familia",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU029",
+    "nombre": "Derecho de los Recursos Naturales y Protección del Medio Ambiente",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "JU030",
+    "nombre": "Formación Práctica Profesional III",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "PE010",
+    "nombre": "Evaluación y Estimulación de Formaciones",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "QU016",
+    "nombre": "Simulación de Procesos",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "28",
+    "nombre": "Etica y Deontología Profesional II",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "29",
+    "nombre": "Práctica Integrada II",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 100
+  },
+  {
+    "codigo": "30",
+    "nombre": "Dirección General",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "32",
+    "nombre": "Seminario Aplicado en Administración",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 60
+  },
+  {
+    "codigo": "33",
+    "nombre": "Práctica Profesional Farmacéutica",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 300
+  },
+  {
+    "codigo": "351",
+    "nombre": "Práctica Profesional Judicial",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "352",
+    "nombre": "Dirección General",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 80
+  },
+  {
+    "codigo": "354",
+    "nombre": "Administración Financiera II",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 80
+  },
+  {
+    "codigo": "356",
+    "nombre": "Seminario Práctica Profesional Supervisada",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 48
+  },
+  {
+    "codigo": "36",
+    "nombre": "Obstetricia",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "37",
+    "nombre": "Medicina General",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "5110",
+    "nombre": "Seminario Taller Contable",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 100
+  },
+  {
+    "codigo": "525",
+    "nombre": "Derecho del Trabajo y Seguridad Social",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "5326",
+    "nombre": "Seminario de Aplicación",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 0
+  },
+  {
+    "codigo": "535",
+    "nombre": "Administración Financiera",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "545",
+    "nombre": "Política Macroeconómica",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "6000",
+    "nombre": "Tesis",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "CI026",
+    "nombre": "Proyecto de Ingeniería Civil (Orientación Construcciones)",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "CI034",
+    "nombre": "Hormigón II-H",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO057",
+    "nombre": "Ordenación Forestal",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "FO059",
+    "nombre": "Política y Legislación Forestal",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "IF025",
+    "nombre": "Sistemas Embebidos de Tiempo Real",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "IF053",
+    "nombre": "Planificación y Gestión de Sistemas de Información",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  },
+  {
+    "codigo": "IF054",
+    "nombre": "Sistemas de Soporte para la Toma de Decisiones",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 105
+  },
+  {
+    "codigo": "JU031",
+    "nombre": "Derecho Sucesorio",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 64
+  },
+  {
+    "codigo": "JU032",
+    "nombre": "Formación Práctica Profesional IV",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU033",
+    "nombre": "Derecho Comercial y Procedimiento Concursal",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "JU034",
+    "nombre": "Derecho Internacional Privado",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 96
+  },
+  {
+    "codigo": "QU013",
+    "nombre": "Optimización",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cargaHoraria": 75
+  },
+  {
+    "codigo": "38",
+    "nombre": "PFO Clínica Médica",
+    "anio": 6,
+    "cuatrimestre": 0,
+    "cargaHoraria": 640
+  },
+  {
+    "codigo": "39",
+    "nombre": "PFO Clínica Quirúrgica",
+    "anio": 6,
+    "cuatrimestre": 0,
+    "cargaHoraria": 320
+  },
+  {
+    "codigo": "40",
+    "nombre": "PFO Clínica Pediátrica",
+    "anio": 6,
+    "cuatrimestre": 0,
+    "cargaHoraria": 320
+  },
+  {
+    "codigo": "41",
+    "nombre": "PFO Clínica Gineco-Obstétrica",
+    "anio": 6,
+    "cuatrimestre": 0,
+    "cargaHoraria": 320
+  },
+  {
+    "codigo": "42",
+    "nombre": "PFO Medicina General y Rural",
+    "anio": 6,
+    "cuatrimestre": 0,
+    "cargaHoraria": 320
+  },
+  {
+    "codigo": "AYD",
+    "nombre": "Análisis y Diseño de Sistemas",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "ANALISIS-MAT",
+    "nombre": "Análisis Matemático",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cargaHoraria": 120
+  },
+  {
+    "codigo": "ESTADISTICA",
+    "nombre": "Estadística y Probabilidad",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cargaHoraria": 90
+  }
+]

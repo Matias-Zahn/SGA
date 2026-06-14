@@ -6,7 +6,13 @@ import { ControladorImportarAsignacion } from "./controladores/ControladorImport
 import { ControladorRegistrarEvento } from "./controladores/ControladorRegistrarEvento";
 import { ControladorConsultarGrilla } from "./controladores/ControladorConsultarGrilla";
 import cors from "cors";
-import { Espacio } from "./dominio/Espacio"; // Opcional, para crear un aula de prueba
+import { Espacio } from "./dominio/Espacio";
+import { Materia } from "./dominio/Materia";
+import { Docente } from "./dominio/Docente";
+import materiasSeed from "./datos/materias.json";
+import docentesSeed from "./datos/docentes.json";
+import aulasSeed from "./datos/aulas.json";
+import asignacionesSeed from "./datos/asignaciones.json";
 
 const app = express();
 app.use(express.json());
@@ -19,15 +25,25 @@ const catalogoEspacios = new CatalogoEspacios();
 const catalogoMaterias = new CatalogoMaterias();
 const catalogoDocentes = new CatalogoDocentes();
 
-// (Opcional) Creamos un aula de prueba para que los endpoints tengan donde guardar cosas
-catalogoEspacios.agregarEspacio(
-  new Espacio(
-    "AULA-101",
-    30,
-    "Aula Híbrida",
-    "Anexo",
-    "Habilitado",
-    "Proyector en mantenimiento",
+// SEED: cargamos los datos de prueba (src/datos/*.json) en los catálogos.
+materiasSeed.forEach((m) =>
+  catalogoMaterias.agregarMateria(new Materia(m.codigo, m.nombre)),
+);
+docentesSeed.forEach((d) =>
+  catalogoDocentes.agregarDocente(
+    new Docente(d.nombre, d.apellido, d.email, d.legajo),
+  ),
+);
+aulasSeed.forEach((a) =>
+  catalogoEspacios.agregarEspacio(
+    new Espacio(
+      a.idEspacio,
+      a.capacidadMaxima,
+      a.tipoEspacio,
+      a.edificio,
+      a.estado,
+      a.observaciones,
+    ),
   ),
 );
 
@@ -39,6 +55,13 @@ const controladorAsignacion = new ControladorImportarAsignacion(
   catalogoEspacios,
   catalogoMaterias,
   catalogoDocentes,
+);
+
+// SEED: cargamos las asignaciones reutilizando el importador (valida y crea todo).
+const reporteSeed = controladorAsignacion.importarAsignacionMasiva(asignacionesSeed);
+const asignacionesOk = reporteSeed.filter((r) => r.exito).length;
+console.log(
+  `[Seed] Materias: ${materiasSeed.length} | Docentes: ${docentesSeed.length} | Aulas: ${aulasSeed.length} | Asignaciones: ${asignacionesOk}/${asignacionesSeed.length}`,
 );
 
 // El controlador de eventos solo necesita conocer los espacios

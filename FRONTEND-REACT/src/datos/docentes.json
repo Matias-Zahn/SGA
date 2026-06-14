@@ -1,0 +1,110 @@
+[
+  {
+    "legajo": "DOC-001",
+    "nombre": "María",
+    "apellido": "Gómez",
+    "email": "maria.gomez@unp.edu.ar"
+  },
+  {
+    "legajo": "DOC-002",
+    "nombre": "Juan",
+    "apellido": "Fernández",
+    "email": "juan.fernandez@gmail.com"
+  },
+  {
+    "legajo": "DOC-003",
+    "nombre": "Lucía",
+    "apellido": "López",
+    "email": "lucia.lopez@outlook.com"
+  },
+  {
+    "legajo": "DOC-004",
+    "nombre": "Diego",
+    "apellido": "Martínez",
+    "email": "diego.martinez@unpata.edu.ar"
+  },
+  {
+    "legajo": "DOC-005",
+    "nombre": "Sofía",
+    "apellido": "Sosa",
+    "email": "sofia.sosa@unp.edu.ar"
+  },
+  {
+    "legajo": "DOC-006",
+    "nombre": "Martín",
+    "apellido": "Pérez",
+    "email": "martin.perez@gmail.com"
+  },
+  {
+    "legajo": "DOC-007",
+    "nombre": "Carla",
+    "apellido": "Romero",
+    "email": "carla.romero@outlook.com"
+  },
+  {
+    "legajo": "DOC-008",
+    "nombre": "Pablo",
+    "apellido": "Díaz",
+    "email": "pablo.diaz@unpata.edu.ar"
+  },
+  {
+    "legajo": "DOC-009",
+    "nombre": "Valeria",
+    "apellido": "Acosta",
+    "email": "valeria.acosta@unp.edu.ar"
+  },
+  {
+    "legajo": "DOC-010",
+    "nombre": "Andrés",
+    "apellido": "Suárez",
+    "email": "andres.suarez@gmail.com"
+  },
+  {
+    "legajo": "DOC-011",
+    "nombre": "Romina",
+    "apellido": "Molina",
+    "email": "romina.molina@outlook.com"
+  },
+  {
+    "legajo": "DOC-012",
+    "nombre": "Federico",
+    "apellido": "Castro",
+    "email": "federico.castro@unpata.edu.ar"
+  },
+  {
+    "legajo": "DOC-013",
+    "nombre": "Gabriela",
+    "apellido": "Ortiz",
+    "email": "gabriela.ortiz@unp.edu.ar"
+  },
+  {
+    "legajo": "DOC-014",
+    "nombre": "Nicolás",
+    "apellido": "Núñez",
+    "email": "nicolas.nunez@gmail.com"
+  },
+  {
+    "legajo": "DOC-015",
+    "nombre": "Florencia",
+    "apellido": "Ramírez",
+    "email": "florencia.ramirez@outlook.com"
+  },
+  {
+    "legajo": "DOC-016",
+    "nombre": "Hernán",
+    "apellido": "Vega",
+    "email": "hernan.vega@unpata.edu.ar"
+  },
+  {
+    "legajo": "DOC-017",
+    "nombre": "Daniela",
+    "apellido": "Herrera",
+    "email": "daniela.herrera@unp.edu.ar"
+  },
+  {
+    "legajo": "DOC-018",
+    "nombre": "Sebastián",
+    "apellido": "Medina",
+    "email": "sebastian.medina@gmail.com"
+  }
+]

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { FileSpreadsheet, Loader2, XCircle } from "lucide-react"
+import { BookOpen, FileSpreadsheet, Loader2, Users, XCircle } from "lucide-react"
 import {
   planillaSimulada,
   type ResultadoImportacion,
@@ -66,35 +66,69 @@ export function ImportarAsignacion() {
   return (
     <div>
       <EncabezadoPagina
-        titulo="Importar Asignación Cuatrimestral"
-        descripcion="Cargá la planilla de asignaciones. El sistema valida cada fila y reporta colisiones o datos inexistentes."
+        titulo="Asignación"
+        descripcion="Cargá las planillas del cuatrimestre. El sistema valida cada fila y reporta colisiones o datos inexistentes."
       />
 
-      <Card className="max-w-xl">
-        <CardHeader>
-          <CardTitle>Planilla de asignaciones</CardTitle>
-          <CardDescription>
-            La lectura del archivo .xlsx se implementará más adelante. Por ahora
-            se procesa una planilla de ejemplo con {planillaSimulada.length}{" "}
-            filas.
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <Button onClick={importar} className="gap-2" disabled={cargando}>
-            {cargando ? (
-              <>
-                <Loader2 className="size-4 animate-spin" />
-                Procesando planilla...
-              </>
-            ) : (
-              <>
-                <FileSpreadsheet className="size-4" />
-                Simular importación de planilla
-              </>
-            )}
-          </Button>
-        </CardContent>
-      </Card>
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <Card>
+          <CardHeader>
+            <CardTitle>Asignación cuatrimestral</CardTitle>
+            <CardDescription>
+              La lectura del archivo .xlsx se implementará más adelante. Por
+              ahora se procesa una planilla de ejemplo con{" "}
+              {planillaSimulada.length} filas.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Button onClick={importar} className="gap-2" disabled={cargando}>
+              {cargando ? (
+                <>
+                  <Loader2 className="size-4 animate-spin" />
+                  Procesando planilla...
+                </>
+              ) : (
+                <>
+                  <FileSpreadsheet className="size-4" />
+                  Simular importación de planilla
+                </>
+              )}
+            </Button>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Importar planilla docente</CardTitle>
+            <CardDescription>
+              Cargá la planilla de docentes para darlos de alta en el sistema.
+              Esta funcionalidad estará disponible más adelante.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Button className="gap-2" disabled>
+              <Users className="size-4" />
+              Próximamente
+            </Button>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Importar planilla de materia</CardTitle>
+            <CardDescription>
+              Cargá la planilla de materias para darlas de alta en el sistema.
+              Esta funcionalidad estará disponible más adelante.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Button className="gap-2" disabled>
+              <BookOpen className="size-4" />
+              Próximamente
+            </Button>
+          </CardContent>
+        </Card>
+      </div>
 
       <DialogReporteImportacion
         abierto={dialogAbierto}

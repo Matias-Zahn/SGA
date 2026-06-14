@@ -1,8 +1,15 @@
 import { useState, type FormEvent } from "react"
+import { CalendarDays } from "lucide-react"
 import type { DatosEvento, Prioridad } from "@/datos/datosSimulados"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { Calendar } from "@/components/ui/calendar"
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover"
 import {
   Select,
   SelectContent,
@@ -10,6 +17,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { diaSemanaCapitalizado, formatoISO, parsearISO } from "@/lib/fechas"
 
 // Opciones de prioridad mostradas en el desplegable.
 const opcionesPrioridad: { valor: Prioridad; etiqueta: string }[] = [
@@ -18,33 +26,46 @@ const opcionesPrioridad: { valor: Prioridad; etiqueta: string }[] = [
   { valor: "3", etiqueta: "3 - Alta" },
 ]
 
-interface FormularioEventoProps {
-  alEnviar: (datos: DatosEvento) => void
+// Opciones de hora (07:00 a 23:00 en pasos de 30 minutos).
+const opcionesHora: string[] = []
+for (let h = 7; h <= 23; h++) {
+  for (const m of ["00", "30"]) {
+    opcionesHora.push(`${String(h).padStart(2, "0")}:${m}`)
+  }
 }
 
-// Valores iniciales del formulario (mismos del prototipo legado).
-const valoresIniciales: DatosEvento = {
-  nombreEvento: "Congreso de Informática",
-  idEspacio: "AULA-101",
-  dia: "Lunes",
-  fecha: "2026-08-10",
-  hInicio: "10:00",
-  hFin: "13:00",
-  prioridad: "2",
+interface FormularioEventoProps {
+  datos: DatosEvento
+  onCambiar: (datos: DatosEvento) => void
+  alEnviar: () => void
 }
 
 // Formulario controlado para registrar un evento único.
-// No conoce el backend: delega los datos cargados al componente padre.
-export function FormularioEvento({ alEnviar }: FormularioEventoProps) {
-  const [datos, setDatos] = useState<DatosEvento>(valoresIniciales)
+// El estado vive en el componente padre (para el resumen en vivo).
+export function FormularioEvento({
+  datos,
+  onCambiar,
+  alEnviar,
+}: FormularioEventoProps) {
+  const [calendarioAbierto, setCalendarioAbierto] = useState(false)
 
   function actualizarCampo(campo: keyof DatosEvento, valor: string) {
-    setDatos((previo) => ({ ...previo, [campo]: valor }))
+    onCambiar({ ...datos, [campo]: valor })
+  }
+
+  // Al elegir una fecha en el calendario, también derivamos el día de la semana.
+  function elegirFecha(fecha: Date) {
+    onCambiar({
+      ...datos,
+      fecha: formatoISO(fecha),
+      dia: diaSemanaCapitalizado(fecha),
+    })
+    setCalendarioAbierto(false)
   }
 
   function manejarEnvio(evento: FormEvent) {
     evento.preventDefault()
-    alEnviar(datos)
+    alEnviar()
   }
 
   return (
@@ -69,43 +90,71 @@ export function FormularioEvento({ alEnviar }: FormularioEventoProps) {
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="dia">Día</Label>
-          <Input
-            id="dia"
-            value={datos.dia}
-            onChange={(e) => actualizarCampo("dia", e.target.value)}
-            required
-          />
+          <Label>Fecha</Label>
+          <Popover open={calendarioAbierto} onOpenChange={setCalendarioAbierto}>
+            <PopoverTrigger asChild>
+              <Button
+                type="button"
+                variant="outline"
+                className="w-full justify-start gap-2 font-normal"
+              >
+                <CalendarDays className="size-4" />
+                {parsearISO(datos.fecha).toLocaleDateString("es-AR", {
+                  day: "2-digit",
+                  month: "long",
+                  year: "numeric",
+                })}
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent className="w-auto p-0" align="start">
+              <Calendar
+                mode="single"
+                selected={parsearISO(datos.fecha)}
+                onSelect={(fecha) => fecha && elegirFecha(fecha)}
+                autoFocus
+              />
+            </PopoverContent>
+          </Popover>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="fecha">Fecha</Label>
-          <Input
-            id="fecha"
-            type="date"
-            value={datos.fecha}
-            onChange={(e) => actualizarCampo("fecha", e.target.value)}
-            required
-          />
+          <Label htmlFor="dia">Día</Label>
+          <Input id="dia" value={datos.dia} disabled />
         </div>
         <div className="space-y-2">
           <Label htmlFor="hInicio">Hora de inicio</Label>
-          <Input
-            id="hInicio"
-            type="time"
+          <Select
             value={datos.hInicio}
-            onChange={(e) => actualizarCampo("hInicio", e.target.value)}
-            required
-          />
+            onValueChange={(valor) => actualizarCampo("hInicio", valor)}
+          >
+            <SelectTrigger id="hInicio" className="w-full">
+              <SelectValue placeholder="Inicio" />
+            </SelectTrigger>
+            <SelectContent position="popper" className="max-h-60">
+              {opcionesHora.map((h) => (
+                <SelectItem key={h} value={h}>
+                  {h}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
         <div className="space-y-2">
           <Label htmlFor="hFin">Hora de fin</Label>
-          <Input
-            id="hFin"
-            type="time"
+          <Select
             value={datos.hFin}
-            onChange={(e) => actualizarCampo("hFin", e.target.value)}
-            required
-          />
+            onValueChange={(valor) => actualizarCampo("hFin", valor)}
+          >
+            <SelectTrigger id="hFin" className="w-full">
+              <SelectValue placeholder="Fin" />
+            </SelectTrigger>
+            <SelectContent position="popper" className="max-h-60">
+              {opcionesHora.map((h) => (
+                <SelectItem key={h} value={h}>
+                  {h}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
         <div className="space-y-2">
           <Label htmlFor="prioridad">Prioridad</Label>

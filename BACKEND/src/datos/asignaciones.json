@@ -1,0 +1,5052 @@
+[
+  {
+    "codigoMateria": "01",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-101",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "1",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-101",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "151",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-101",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "3",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-101",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "FO030",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-101",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "FO031",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-101",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "MA051",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-102",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "MA800",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-102",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "PAJ001",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-102",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "PAJ002",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-102",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "PAJ003",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-102",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "PAJ004",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-102",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "PAJ005",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-103",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "QU001",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-103",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "02",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-103",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "03",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-103",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "111",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-103",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "112",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-103",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "113",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-104",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "114",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-104",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "141",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-104",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "2",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-104",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "CR001",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-104",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "CR002",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-104",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "CR003",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-105",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "IF001",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-105",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "IF002",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-105",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "JU001",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-105",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "JU002",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-105",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "JU003",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-105",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "MA001",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-106",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "MA002",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-106",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "MA045",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-106",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "TC1",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-106",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TC2",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-106",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TC3",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-106",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TMC1",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-107",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TMC2",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-107",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TMC3",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-107",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "04",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-107",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "17:30",
+    "hFin": "20:30"
+  },
+  {
+    "codigoMateria": "05",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-107",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "121",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-107",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "122",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-108",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "123",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-108",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "124",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-108",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "131",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-108",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "161",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-108",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "4",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-108",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "5",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-109",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "6",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-109",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "CR004",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-109",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "CR005",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-109",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "CR006",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-109",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "FI001",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-109",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "FI008",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-110",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "IF003",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-110",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "JU004",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-110",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "JU005",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-110",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "JU006",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-110",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "MA003",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-110",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "MA008",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-111",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "MA046",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-111",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "MA050",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-111",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "TC4",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-111",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "10:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "TC5",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-111",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "TC6",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-111",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "TMC4",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-112",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TMC5",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-112",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "TMC6",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-112",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "06",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-112",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "07",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-112",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "212",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-112",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "2315",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-113",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "7",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-113",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "ES008",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-113",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "ES010",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-113",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "18:30",
+    "hFin": "20:00"
+  },
+  {
+    "codigoMateria": "MA056",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-113",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "MA801",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-113",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "20:30",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "MA802",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-114",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "PAJ006",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-114",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "PAJ007",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-114",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "PAJ008",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-114",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "PAJ009",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-114",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "PAJ010",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-114",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "16:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "PAJ011",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-115",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "PE001",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-115",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "08",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-115",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "09",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-115",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "211",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-115",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "213",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-115",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "214",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-116",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "215",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-116",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "216",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-116",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "221",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-116",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "232",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-116",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "242",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-116",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "243",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-201",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "252",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-201",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "263",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-201",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "264",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-201",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "8",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-201",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "9",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-201",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "CR007",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-202",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "CR008",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-202",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "CR009",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-202",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "ES003",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-202",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "FI002",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-202",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "FI004",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-202",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "FO032",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-203",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "IF004",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-203",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "IF005",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-203",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:30",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "IF006",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-203",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "JU007",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-203",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "17:00",
+    "hFin": "20:00"
+  },
+  {
+    "codigoMateria": "JU008",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-203",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "JU009",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-204",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "MA042",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-204",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "MA052",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-204",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "MA053",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-204",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "SI018",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-204",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TB212",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-204",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TB213",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-205",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "TB215",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-205",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "TB216",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-205",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "TC7",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-205",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "TC8",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-205",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TC9",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-205",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "TD210",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-206",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "TMC7",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-206",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "TMC8",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-206",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TMC9",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-206",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "10",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-206",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "11",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-206",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "12",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-207",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "222",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-207",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "223",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-207",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "224",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-207",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "225",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-207",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "226",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-207",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "227",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-208",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "244",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-208",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "245",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-208",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "246",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-208",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "17:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "253",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-208",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "254",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-208",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "262",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-209",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "265",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-209",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "CR010",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-209",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "CR011",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-209",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "CR012",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-209",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "EE016",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-209",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "ES004",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-210",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "FI003",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-210",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "FO034",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-210",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "FO035",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-210",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "IF007",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-210",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "10:30",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "IF008",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-210",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "IF038",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-211",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "JU010",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-211",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "15:30",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "JU011",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-211",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "JU012",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-211",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "MA006",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-211",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "MA007",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-211",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "MA054",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-212",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "MA055",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-212",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "QU003",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-212",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "TB221",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-212",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "TB222",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-212",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "TB223",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-212",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "TB224",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-213",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "TB225",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-213",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TC10",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-213",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "TC11",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-213",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TC12",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-213",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "16:30",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "TD217",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-213",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "TD218",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-214",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TD219",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-214",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TD220",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-214",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TMC10",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-214",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "TMC11",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-214",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TMC12",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-214",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "14",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-215",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "313",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-215",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "314",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-215",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "CI002",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-215",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "CI011",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-215",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "10:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "CI024",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-215",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "EE001",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-216",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "EE014",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-216",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "ES001",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-216",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "ES002",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-216",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "ES005",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-216",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "ES009",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-216",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "ES012",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-301",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "FA011",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-301",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "FI005",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-301",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "II003",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-301",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "MA060",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-301",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "ME014",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-301",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "PAJ012",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-302",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "PAJ013",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-302",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "PAJ014",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-302",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "PAJ015",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-302",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "PAJ016",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-302",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "PE002",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-302",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "PE003",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-303",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "QU002",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-303",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "QU005",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-303",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "QU006",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-303",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "QU007",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-303",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "231",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-303",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "233",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-304",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "234",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-304",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "235",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-304",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "236",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-304",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "237",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-304",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "3112",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-304",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "3115",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-305",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "323",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-305",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "328",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-305",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "3316",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-305",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "3318",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-305",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "333",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-305",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "347",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-306",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "348",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-306",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "349",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-306",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "353",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-306",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "355",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-306",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "3610",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-306",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "20:30",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "371",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-307",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "8000",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-307",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "CI008",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-307",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "CI012",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-307",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "EE009",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-307",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "EE013",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-307",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "ES006",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-308",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "FA009",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-308",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "FA010",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-308",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "FO037",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-308",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "FO038",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-308",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "FO039",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-308",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "16:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "FO040",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-309",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "IF009",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-309",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "IF010",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-309",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "IF011",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-309",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:00",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "II002",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-309",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "JU013",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-309",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "JU014",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-310",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "JU015",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-310",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "MA057",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-310",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "MA058",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-310",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "MA066",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-310",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "MA803",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-310",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "PE004",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-311",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "QU004",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-311",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TC13",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-311",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:30",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TC14",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-311",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "TC15",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-311",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "TMC13",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-312",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "TMC14",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-312",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:00",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "TMC15",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-312",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "17:00",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "13",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-312",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "18",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-312",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "19",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-312",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "3005",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-313",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "311",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-313",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "3111",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-313",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "3113",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-313",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "312",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-313",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "315",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-313",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "316",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-314",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "10:00",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "327",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-314",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:30"
+  },
+  {
+    "codigoMateria": "3322",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-314",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "3323",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-314",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "334",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-314",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "3410",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-314",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "3411",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-315",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "3412",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-315",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "343",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-315",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "363",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-315",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "372",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-315",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "11:00"
+  },
+  {
+    "codigoMateria": "373",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-315",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "CI013",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-316",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "10:00"
+  },
+  {
+    "codigoMateria": "EE008",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-316",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "09:30"
+  },
+  {
+    "codigoMateria": "EE017",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-316",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:00",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "ES007",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-316",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:30",
+    "hFin": "11:30"
+  },
+  {
+    "codigoMateria": "FI006",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-316",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "08:00",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "FO041",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-316",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "09:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "FO042",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-101",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "16:30",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "FO043",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-101",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "IF012",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-101",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "IF013",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-101",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "II001",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-101",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "JU016",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-101",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "JU017",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-102",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "JU018",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-102",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "JU019",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-102",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "MA047",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-102",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "MA059",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-102",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "MA067",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-102",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "MA068",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-103",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "MA804",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-103",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "ME020",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-103",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "TC16",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-103",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "TC17",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-103",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "TC18",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-103",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "10:30",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "15",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-104",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "16",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-104",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "17",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-104",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "20",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-104",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "415",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-104",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "CI004",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-104",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "CI007",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-105",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "CI009",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-105",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "CI010",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-105",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "CI015",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-105",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "10:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "CI019",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-105",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "CI022",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-106",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "EE002",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-106",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "EE003",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-106",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "EE005",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-106",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "EE011",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-106",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "EE015",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-106",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "14:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "FA016",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-107",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "FA017",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-107",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "10:30",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "II005",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-107",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "II006",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-107",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "II007",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-107",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "MA065",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-108",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "ME001",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-108",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "ME005",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-108",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "ME007",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-108",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "ME024",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-108",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "PE005",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-108",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "PE008",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-109",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "PE009",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-109",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "QU008",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-109",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "20:00"
+  },
+  {
+    "codigoMateria": "QU009",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-109",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "QU010",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-109",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "QU011",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-109",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "321",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-110",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "322",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-110",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "324",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-110",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "16:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "325",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-110",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "326",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-110",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "416",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-110",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "434",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-111",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:30",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "4413",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-111",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:30",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "4414",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-111",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "4415",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-111",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "18:00",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "453",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-111",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:00",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "454",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-112",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "456",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-112",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "10:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "466",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-112",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "474",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-112",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "CI020",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-112",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "CI044",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-112",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "16:30",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "FA012",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-113",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "FA013",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-113",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:30",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "FO045",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-113",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "FO046",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-113",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "19:30",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "FO047",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-114",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "FO048",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-114",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "IF015",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-114",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "10:30",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "IF018",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-114",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "IF019",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-114",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:30",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "II004",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-114",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "20:30",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "JU020",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-115",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "JU021",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-115",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "19:00",
+    "hFin": "21:00"
+  },
+  {
+    "codigoMateria": "JU022",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-115",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "16:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "JU023",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-115",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "16:30",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "MA062",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-115",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "MA069",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-116",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "MA070",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-116",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "10:30",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "MA805",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-116",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "18:30",
+    "hFin": "20:30"
+  },
+  {
+    "codigoMateria": "ME008",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-116",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "PE006",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-116",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "331",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-116",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "332",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-201",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "18:00",
+    "hFin": "21:00"
+  },
+  {
+    "codigoMateria": "335",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-201",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "18:00",
+    "hFin": "20:30"
+  },
+  {
+    "codigoMateria": "336",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-201",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "424",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-201",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "4324",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-201",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "4325",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-201",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "4416",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-202",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "4417",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-202",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "4418",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-202",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "20:00"
+  },
+  {
+    "codigoMateria": "4419",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-202",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "444",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-202",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "464",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-202",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "10:30",
+    "hFin": "12:00"
+  },
+  {
+    "codigoMateria": "467",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-203",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "CI001",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-203",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "16:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "CI003",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-203",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:30",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "CI033",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-203",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "CI041",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-203",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "EE025",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-204",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "17:00"
+  },
+  {
+    "codigoMateria": "FA015",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-204",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "FO049",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-204",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "FO050",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-204",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "FO051",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-204",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "IF020",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-204",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "IF022",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-205",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "10:30",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "IF046",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-205",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "JU024",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-205",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "JU025",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-205",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "JU026",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-205",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "JU027",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-205",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "MA063",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-206",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "MA806",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-206",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "PE007",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-206",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "22",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-206",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "23",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-206",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "24",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-206",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "25",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-207",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "12:30"
+  },
+  {
+    "codigoMateria": "26",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-207",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "27",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-207",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "CI018",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-207",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "CI021",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-207",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "CI023",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-207",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "17:00",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "CI025",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-208",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "CI031",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-208",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "CI043",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-208",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "10:30",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "EE007",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-208",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "19:30",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "EE010",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-208",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "14:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "EE019",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-208",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "II008",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-209",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "10:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "II009",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-209",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "ME002",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-209",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "ME003",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-209",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "ME004",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-209",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "ME012",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-209",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "PE011",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-210",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "PE012",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-210",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:30",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "QU012",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-210",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "15:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "QU014",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-210",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "17:30",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "QU015",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-210",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "14:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "TF",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-210",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "21",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-211",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "31",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-211",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "20:30",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "34",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-211",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "17:00",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "341",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-211",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "342",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-211",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "17:30",
+    "hFin": "20:30"
+  },
+  {
+    "codigoMateria": "344",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-211",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "19:30",
+    "hFin": "21:30"
+  },
+  {
+    "codigoMateria": "345",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-212",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "346",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-212",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "35",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-212",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:30",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "517",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-212",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "16:00",
+    "hFin": "20:00"
+  },
+  {
+    "codigoMateria": "518",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-212",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "519",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-212",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "5212",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-213",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "16:30",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "5417",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-213",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "565",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-213",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "CI005",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-213",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:00",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "CI042",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-213",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "20:00",
+    "hFin": "21:30"
+  },
+  {
+    "codigoMateria": "FA026",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-213",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "09:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "FO053",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-214",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "FO054",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-214",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "12:00",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "FO055",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-214",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "FO056",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-214",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "IF017",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-214",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "11:00",
+    "hFin": "13:00"
+  },
+  {
+    "codigoMateria": "IF021",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-214",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "15:30",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "IF027",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-215",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:00",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "IF049",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-215",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:30",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "IF050",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-215",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "16:30",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "JU028",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-215",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "21:00",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "JU029",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-215",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "14:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "JU030",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-215",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "PE010",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-216",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "17:00",
+    "hFin": "20:00"
+  },
+  {
+    "codigoMateria": "QU016",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-216",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:00",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "28",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-216",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "29",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-216",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "30",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-216",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "32",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-216",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "33",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-301",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "17:00",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "351",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-301",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "352",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-301",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "354",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-301",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "356",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-301",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "36",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-301",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "37",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-302",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "5110",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-302",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "15:30",
+    "hFin": "17:30"
+  },
+  {
+    "codigoMateria": "525",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-302",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "13:30"
+  },
+  {
+    "codigoMateria": "5326",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-302",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "535",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-302",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:00",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "545",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-302",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "17:30",
+    "hFin": "20:00"
+  },
+  {
+    "codigoMateria": "6000",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-303",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "17:00",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "CI026",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-303",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "CI034",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-303",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "18:30",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "FO057",
+    "legajo": "DOC-002",
+    "idEspacio": "AULA-303",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:00"
+  },
+  {
+    "codigoMateria": "FO059",
+    "legajo": "DOC-003",
+    "idEspacio": "AULA-303",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "18:30"
+  },
+  {
+    "codigoMateria": "IF025",
+    "legajo": "DOC-004",
+    "idEspacio": "AULA-303",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "IF053",
+    "legajo": "DOC-005",
+    "idEspacio": "AULA-304",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "IF054",
+    "legajo": "DOC-006",
+    "idEspacio": "AULA-304",
+    "dia": "Martes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "14:30"
+  },
+  {
+    "codigoMateria": "JU031",
+    "legajo": "DOC-007",
+    "idEspacio": "AULA-304",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:00",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "JU032",
+    "legajo": "DOC-008",
+    "idEspacio": "AULA-304",
+    "dia": "Jueves",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "13:30",
+    "hFin": "16:30"
+  },
+  {
+    "codigoMateria": "JU033",
+    "legajo": "DOC-009",
+    "idEspacio": "AULA-304",
+    "dia": "Viernes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "10:00",
+    "hFin": "14:00"
+  },
+  {
+    "codigoMateria": "JU034",
+    "legajo": "DOC-010",
+    "idEspacio": "AULA-304",
+    "dia": "Sábado",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "14:30",
+    "hFin": "16:00"
+  },
+  {
+    "codigoMateria": "QU013",
+    "legajo": "DOC-011",
+    "idEspacio": "AULA-305",
+    "dia": "Lunes",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "15:00",
+    "hFin": "18:00"
+  },
+  {
+    "codigoMateria": "38",
+    "legajo": "DOC-012",
+    "idEspacio": "AULA-305",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "11:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "39",
+    "legajo": "DOC-013",
+    "idEspacio": "AULA-305",
+    "dia": "Miércoles",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "18:30",
+    "hFin": "22:00"
+  },
+  {
+    "codigoMateria": "40",
+    "legajo": "DOC-014",
+    "idEspacio": "AULA-305",
+    "dia": "Jueves",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "16:00",
+    "hFin": "19:00"
+  },
+  {
+    "codigoMateria": "41",
+    "legajo": "DOC-015",
+    "idEspacio": "AULA-305",
+    "dia": "Viernes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "16:30",
+    "hFin": "20:30"
+  },
+  {
+    "codigoMateria": "42",
+    "legajo": "DOC-016",
+    "idEspacio": "AULA-305",
+    "dia": "Sábado",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-11-20",
+    "hInicio": "16:30",
+    "hFin": "19:30"
+  },
+  {
+    "codigoMateria": "AYD",
+    "legajo": "DOC-017",
+    "idEspacio": "AULA-306",
+    "dia": "Lunes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:00",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "ANALISIS-MAT",
+    "legajo": "DOC-018",
+    "idEspacio": "AULA-306",
+    "dia": "Martes",
+    "fInicio": "2026-03-16",
+    "fFin": "2026-07-03",
+    "hInicio": "13:30",
+    "hFin": "15:30"
+  },
+  {
+    "codigoMateria": "ESTADISTICA",
+    "legajo": "DOC-001",
+    "idEspacio": "AULA-306",
+    "dia": "Miércoles",
+    "fInicio": "2026-08-10",
+    "fFin": "2026-11-20",
+    "hInicio": "12:30",
+    "hFin": "15:00"
+  }
+]

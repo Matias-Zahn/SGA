@@ -5,12 +5,12 @@ export class CatalogoMaterias {
   private materias: Materia[] = [];
 
   constructor() {
-    // Simulamos la base de datos "precargada" instanciando las materias
-    this.materias.push(new Materia("AYD", "Análisis y Diseño de Sistemas"));
-    this.materias.push(new Materia("ANALISIS-MAT", "Análisis Matemático"));
-    this.materias.push(
-      new Materia("ESTADISTICA", "Estadística y Probabilidad"),
-    );
+    // Los datos se cargan desde el seed en server.ts (ver src/datos/materias.json).
+  }
+
+  // Agrega una materia al catálogo (usado por el seed inicial).
+  public agregarMateria(materia: Materia): void {
+    this.materias.push(materia);
   }
 
   // ESTE ES EL MÉTODO NUEVO que requiere tu Diagrama de Secuencia (Paso 5)
