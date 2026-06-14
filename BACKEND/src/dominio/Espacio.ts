@@ -120,4 +120,41 @@ export class Espacio {
     console.log(`[Motor 2D] ✅ El espacio ${this.idEspacio} está libre.`);
     return { libre: true };
   }
+
+  public obtenerOcupacionDelDia(dia: string, fecha: string) {
+    const ocupacion = [];
+    const diaPeticion = dia ? dia.trim().toLowerCase() : "";
+
+    // 1. Buscamos las materias de ese día de la semana
+    const materias = this.asignacionesVinculadas.filter(
+      (a) => a.getDia().trim().toLowerCase() === diaPeticion,
+    );
+
+    for (const m of materias) {
+      ocupacion.push({
+        nombre: m.getNombre(),
+        inicio: m.getHInicio(),
+        fin: m.getHFin(),
+        tipo: "Asignacion",
+        estado: m.getEstado(), // Clave para pintar las expropiadas de gris en el front
+      });
+    }
+
+    // 2. Buscamos los eventos de esa fecha exacta
+    const eventos = this.eventosVinculados.filter(
+      (e) => e.getFecha() === fecha,
+    );
+
+    for (const e of eventos) {
+      ocupacion.push({
+        nombre: e.getNombre(),
+        inicio: e.getHInicio(),
+        fin: e.getHFin(),
+        tipo: "Evento",
+        estado: e.getEstado(),
+      });
+    }
+
+    return ocupacion;
+  }
 }

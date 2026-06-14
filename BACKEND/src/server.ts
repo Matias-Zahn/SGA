@@ -4,6 +4,7 @@ import { CatalogoMaterias } from "./dominio/CatalogoMaterias";
 import { CatalogoDocentes } from "./dominio/CatalogoDocentes";
 import { ControladorImportarAsignacion } from "./controladores/ControladorImportarAsignacion";
 import { ControladorRegistrarEvento } from "./controladores/ControladorRegistrarEvento";
+import { ControladorConsultarGrilla } from "./controladores/ControladorConsultarGrilla";
 import cors from "cors";
 import { Espacio } from "./dominio/Espacio"; // Opcional, para crear un aula de prueba
 
@@ -43,6 +44,8 @@ const controladorAsignacion = new ControladorImportarAsignacion(
 // El controlador de eventos solo necesita conocer los espacios
 const controladorEvento = new ControladorRegistrarEvento(catalogoEspacios);
 
+// El controlador de la grilla solo necesita leer los espacios
+const controladorGrilla = new ControladorConsultarGrilla(catalogoEspacios);
 // ==========================================
 // 3. ENDPOINTS
 // ==========================================
@@ -104,6 +107,38 @@ app.post("/api/registrar-evento", (req: Request, res: Response) => {
   }
 });
 
+// --- ENDPOINT 3: CONSULTAR GRILLA (Línea de Tiempo) ---
+app.get("/api/grilla", (req: Request, res: Response) => {
+  // Extraemos los query params de la URL (ej: /api/grilla?dia=lunes&fecha=2026-08-10)
+  const dia = req.query.dia as string;
+  const fecha = req.query.fecha as string;
+
+  if (!fecha) {
+    return res.status(400).json({
+      exito: false,
+      error:
+        "El parámetro 'fecha' es obligatorio en la URL (formato YYYY-MM-DD).",
+    });
+  }
+
+  try {
+    // Le pasamos el día (o string vacío si no viene) y la fecha al controlador
+    const resultado = controladorGrilla.consultarLineaDeTiempo(
+      dia || "",
+      fecha,
+    );
+
+    // Devolvemos el JSON armado para que React dibuje la grilla
+    res.status(200).json(resultado);
+  } catch (error) {
+    console.error("[Endpoint Grilla] Error:", error);
+    res.status(500).json({
+      exito: false,
+      error: "Error interno al procesar la grilla.",
+    });
+  }
+});
+
 // ==========================================
 // 4. INICIO DEL SERVIDOR
 // ==========================================
@@ -116,5 +151,8 @@ app.listen(PORT, () => {
   );
   console.log(
     `- POST /api/registrar-evento (Recibe un Objeto JSON del formulario)`,
+  );
+  console.log(
+    `- GET  /api/grilla (Recibe query params ?dia=...&fecha=... para dibujar la Línea de Tiempo)`,
   );
 });
