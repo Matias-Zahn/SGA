@@ -10,6 +10,8 @@ export class ControladorRegistrarEvento {
 
   public registrarEvento(
     nombreEvento: string,
+    nombreSolicitante: string,
+    contactoSolicitante: string,
     idEspacio: string,
     dia: string,
     fecha: string,
@@ -85,6 +87,8 @@ export class ControladorRegistrarEvento {
       hInicio,
       hFin,
       prioridadNueva,
+      nombreSolicitante,
+      contactoSolicitante,
     );
     e.agregarEvento(nuevoEvento);
 

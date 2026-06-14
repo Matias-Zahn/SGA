@@ -58,7 +58,8 @@ const controladorAsignacion = new ControladorImportarAsignacion(
 );
 
 // SEED: cargamos las asignaciones reutilizando el importador (valida y crea todo).
-const reporteSeed = controladorAsignacion.importarAsignacionMasiva(asignacionesSeed);
+const reporteSeed =
+  controladorAsignacion.importarAsignacionMasiva(asignacionesSeed);
 const asignacionesOk = reporteSeed.filter((r) => r.exito).length;
 console.log(
   `[Seed] Materias: ${materiasSeed.length} | Docentes: ${docentesSeed.length} | Aulas: ${aulasSeed.length} | Asignaciones: ${asignacionesOk}/${asignacionesSeed.length}`,
@@ -97,6 +98,8 @@ app.post("/api/importar-asignacion", (req: Request, res: Response) => {
 app.post("/api/registrar-evento", (req: Request, res: Response) => {
   const {
     nombreEvento,
+    nombreSolicitante,
+    contactoSolicitante,
     idEspacio,
     dia,
     hInicio,
@@ -108,6 +111,8 @@ app.post("/api/registrar-evento", (req: Request, res: Response) => {
 
   const resultado = controladorEvento.registrarEvento(
     nombreEvento,
+    nombreSolicitante,
+    contactoSolicitante,
     idEspacio,
     dia,
     fecha,
