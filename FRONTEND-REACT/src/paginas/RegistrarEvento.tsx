@@ -5,6 +5,8 @@ import {
 } from "@/datos/datosSimulados"
 import { EncabezadoPagina } from "@/componentes/EncabezadoPagina"
 import { FormularioEvento } from "@/componentes/FormularioEvento"
+import { ResumenEvento } from "@/componentes/ResumenEvento"
+import { diaSemanaCapitalizado, formatoISO } from "@/lib/fechas"
 import { DialogResultadoEvento } from "@/componentes/DialogResultadoEvento"
 import { DialogConfirmarExpropiacion } from "@/componentes/DialogConfirmarExpropiacion"
 import {
@@ -30,6 +32,18 @@ interface BodyEvento {
 }
 
 export function RegistrarEvento() {
+  // Datos del formulario (acá viven para alimentar el resumen en vivo).
+  // Por defecto: el día de hoy.
+  const [datos, setDatos] = useState<DatosEvento>(() => ({
+    nombreEvento: "Congreso de Informática",
+    idEspacio: "AULA-101",
+    dia: diaSemanaCapitalizado(new Date()),
+    fecha: formatoISO(new Date()),
+    hInicio: "10:00",
+    hFin: "13:00",
+    prioridad: "2",
+  }))
+
   const [resultado, setResultado] = useState<ResultadoEvento | null>(null)
   const [dialogAbierto, setDialogAbierto] = useState(false)
 
@@ -40,7 +54,7 @@ export function RegistrarEvento() {
   // reenviarlo con la bandera en true si el usuario acepta expropiar.
   const [bodyPendiente, setBodyPendiente] = useState<BodyEvento | null>(null)
 
-  function registrar(datos: DatosEvento) {
+  function registrar() {
     const body: BodyEvento = {
       nombreEvento: datos.nombreEvento,
       idEspacio: datos.idEspacio,
@@ -96,18 +110,26 @@ export function RegistrarEvento() {
         descripcion="Reservá un espacio para un evento puntual. El sistema verifica que no choque con otras actividades."
       />
 
-      <Card className="max-w-2xl">
-        <CardHeader>
-          <CardTitle>Datos del evento</CardTitle>
-          <CardDescription>
-            Completá el formulario. Probá con la hora de inicio 18:00 para ver
-            una colisión simulada.
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <FormularioEvento alEnviar={registrar} />
-        </CardContent>
-      </Card>
+      <div className="grid items-start gap-6 lg:grid-cols-[20rem_1fr]">
+        <ResumenEvento datos={datos} />
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Datos del evento</CardTitle>
+            <CardDescription>
+              Completá el formulario. Probá con la hora de inicio 18:00 para ver
+              una colisión simulada.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <FormularioEvento
+              datos={datos}
+              onCambiar={setDatos}
+              alEnviar={registrar}
+            />
+          </CardContent>
+        </Card>
+      </div>
 
       <DialogResultadoEvento
         abierto={dialogAbierto}

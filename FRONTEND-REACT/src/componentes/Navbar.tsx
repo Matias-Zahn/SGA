@@ -1,12 +1,14 @@
 import { NavLink } from "react-router-dom"
-import { CalendarPlus, FileSpreadsheet, Home } from "lucide-react"
+import { CalendarPlus, FileSpreadsheet, Home, LayoutGrid } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { ModeToggle } from "@/components/mode-toggle"
 
 // Enlaces de navegación principales de la app.
 const enlaces = [
   { ruta: "/", etiqueta: "Inicio", icono: Home },
-  { ruta: "/importar", etiqueta: "Importar Asignación", icono: FileSpreadsheet },
+  { ruta: "/importar", etiqueta: "Asignación", icono: FileSpreadsheet },
   { ruta: "/eventos", etiqueta: "Registrar Evento", icono: CalendarPlus },
+  { ruta: "/grilla", etiqueta: "Consultar Grilla", icono: LayoutGrid },
 ]
 
 // Barra de navegación superior. Resalta la ruta activa.
@@ -36,6 +38,9 @@ export function Navbar() {
             </li>
           ))}
         </ul>
+        <div className="ml-auto">
+          <ModeToggle />
+        </div>
       </nav>
     </header>
   )

@@ -3,6 +3,7 @@ import { Layout } from "@/componentes/Layout"
 import { Inicio } from "@/paginas/Inicio"
 import { ImportarAsignacion } from "@/paginas/ImportarAsignacion"
 import { RegistrarEvento } from "@/paginas/RegistrarEvento"
+import { ConsultarGrilla } from "@/paginas/ConsultarGrilla"
 
 // Configuración de rutas de la app. Todas las páginas comparten el Layout
 // (navbar + contenedor) y se renderizan en su <Outlet>.
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/importar" element={<ImportarAsignacion />} />
           <Route path="/eventos" element={<RegistrarEvento />} />
+          <Route path="/grilla" element={<ConsultarGrilla />} />
         </Route>
       </Routes>
     </BrowserRouter>

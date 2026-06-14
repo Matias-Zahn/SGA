@@ -4,13 +4,12 @@ export class CatalogoDocentes {
   private docentes: Docente[] = [];
 
   constructor() {
-    // Simulamos un par de profes para que puedas probar tu importación
-    this.docentes.push(
-      new Docente("Fabiana", "Sánchez", "fabiana@unp.edu.ar", "DOC-001"),
-    );
-    this.docentes.push(
-      new Docente("Francisco", "Viviers", "francisco@unp.edu.ar", "DOC-002"),
-    );
+    // Los datos se cargan desde el seed en server.ts (ver src/datos/docentes.json).
+  }
+
+  // Agrega un docente al catálogo (usado por el seed inicial).
+  public agregarDocente(docente: Docente): void {
+    this.docentes.push(docente);
   }
 
   // El método que usa tu Controlador (Paso 7 del Diagrama de Secuencia)

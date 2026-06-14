@@ -1,0 +1,641 @@
+[
+  {
+    "idEspacio": "AULA-10",
+    "piso": 0,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-11",
+    "piso": 0,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-12",
+    "piso": 0,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-13",
+    "piso": 0,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-14",
+    "piso": 0,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-15",
+    "piso": 0,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-16",
+    "piso": 0,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-101",
+    "piso": 1,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-102",
+    "piso": 1,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-103",
+    "piso": 1,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-104",
+    "piso": 1,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-105",
+    "piso": 1,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-106",
+    "piso": 1,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-107",
+    "piso": 1,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-108",
+    "piso": 1,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-109",
+    "piso": 1,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-110",
+    "piso": 1,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-111",
+    "piso": 1,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-112",
+    "piso": 1,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-113",
+    "piso": 1,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-114",
+    "piso": 1,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-115",
+    "piso": 1,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-116",
+    "piso": 1,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-201",
+    "piso": 2,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-202",
+    "piso": 2,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-203",
+    "piso": 2,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-204",
+    "piso": 2,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-205",
+    "piso": 2,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-206",
+    "piso": 2,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-207",
+    "piso": 2,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-208",
+    "piso": 2,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-209",
+    "piso": 2,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-210",
+    "piso": 2,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-211",
+    "piso": 2,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-212",
+    "piso": 2,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-213",
+    "piso": 2,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-214",
+    "piso": 2,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-215",
+    "piso": 2,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-216",
+    "piso": 2,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Central",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-301",
+    "piso": 3,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-302",
+    "piso": 3,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-303",
+    "piso": 3,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-304",
+    "piso": 3,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-305",
+    "piso": 3,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-306",
+    "piso": 3,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-307",
+    "piso": 3,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-308",
+    "piso": 3,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-309",
+    "piso": 3,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-310",
+    "piso": 3,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-311",
+    "piso": 3,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-312",
+    "piso": 3,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-313",
+    "piso": 3,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-314",
+    "piso": 3,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-315",
+    "piso": 3,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-316",
+    "piso": 3,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-401",
+    "piso": 4,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-402",
+    "piso": 4,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-403",
+    "piso": 4,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-404",
+    "piso": 4,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-405",
+    "piso": 4,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-406",
+    "piso": 4,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-407",
+    "piso": 4,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-408",
+    "piso": 4,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-409",
+    "piso": 4,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-410",
+    "piso": 4,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-411",
+    "piso": 4,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-412",
+    "piso": 4,
+    "capacidadMaxima": 50,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-413",
+    "piso": 4,
+    "capacidadMaxima": 25,
+    "tipoEspacio": "Laboratorio",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-414",
+    "piso": 4,
+    "capacidadMaxima": 70,
+    "tipoEspacio": "Aula Híbrida",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-415",
+    "piso": 4,
+    "capacidadMaxima": 30,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  },
+  {
+    "idEspacio": "AULA-416",
+    "piso": 4,
+    "capacidadMaxima": 40,
+    "tipoEspacio": "Aula",
+    "edificio": "Anexo",
+    "estado": "Habilitado",
+    "observaciones": ""
+  }
+]
