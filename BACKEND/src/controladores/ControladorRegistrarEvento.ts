@@ -1,6 +1,21 @@
 import { CatalogoEspacios } from "../dominio/CatalogoEspacios";
 import { Evento } from "../dominio/Evento";
 
+// [NUEVO - Notificar a Responsable] Datos de la actividad desplazada por una
+// expropiación. Se devuelven al front (en la respuesta de éxito) para que el
+// operador de Bedelía pueda luego "Notificar al responsable". Es solo
+// informativo/demostrativo: no dispara ningún envío real.
+interface ActividadAfectada {
+  nombre: string;
+  tipo: string; // "Asignacion" | "Evento"
+  idEspacio: string;
+  dia: string;
+  fecha: string;
+  hInicio: string;
+  hFin: string;
+  responsable: { nombre: string; contacto: string };
+}
+
 export class ControladorRegistrarEvento {
   private catalogoEspacios: CatalogoEspacios;
 
@@ -34,6 +49,8 @@ export class ControladorRegistrarEvento {
 
     let mensajeFinal = "Evento registrado con éxito en el espacio asignado.";
     let estadoFinal = "REGISTRO_NORMAL";
+    // [NUEVO - Notificar a Responsable] Queda en null salvo que haya expropiación.
+    let actividadAfectada: ActividadAfectada | null = null;
 
     if (!estadoEspacio.libre && estadoEspacio.actividadConflictiva) {
       const actConflictiva = estadoEspacio.actividadConflictiva;
@@ -66,7 +83,23 @@ export class ControladorRegistrarEvento {
 
         actConflictiva.cambiarEstado("A Reprogramar");
 
-        this.notificarResponsable();
+        // [NUEVO - Notificar a Responsable] Recopilamos los datos de la
+        // actividad desplazada y su responsable para devolverlos al front.
+        actividadAfectada = {
+          nombre: actConflictiva.getNombre(),
+          tipo: estadoEspacio.tipo ?? "",
+          idEspacio,
+          dia,
+          fecha,
+          hInicio: actConflictiva.getHInicio(),
+          hFin: actConflictiva.getHFin(),
+          responsable: {
+            nombre: actConflictiva.getResponsableNombre(),
+            contacto: actConflictiva.getResponsableContacto(),
+          },
+        };
+
+        this.notificarResponsable(actividadAfectada);
 
         mensajeFinal = `Evento registrado por Alta Prioridad. Se desplazó: ${actConflictiva.getNombre()}`;
         estadoFinal = "EXPROPIACION_REALIZADA";
@@ -96,6 +129,9 @@ export class ControladorRegistrarEvento {
       exito: true,
       mensaje: mensajeFinal,
       estado: estadoFinal,
+      // [NUEVO - Notificar a Responsable] null en registro normal; con datos
+      // cuando hubo expropiación (para habilitar la notificación en el front).
+      actividadAfectada,
     };
   }
 
@@ -103,9 +139,14 @@ export class ControladorRegistrarEvento {
     console.log("[Controlador] Acción confirmada por el usuario.");
   }
 
-  private notificarResponsable(): void {
+  // [NUEVO - Notificar a Responsable] Recibe los datos de la actividad afectada
+  // para dejar registro (demostrativo). El envío real se simula en el front.
+  private notificarResponsable(afectada?: ActividadAfectada): void {
     console.log(
-      "[Controlador] Enviando notificación al responsable de la actividad desplazada...",
+      "[Controlador] Notificación pendiente para el responsable de la actividad desplazada:",
+      afectada
+        ? `${afectada.responsable.nombre} <${afectada.responsable.contacto}> — ${afectada.nombre}`
+        : "(sin datos)",
     );
   }
 }

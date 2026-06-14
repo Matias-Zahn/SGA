@@ -27,6 +27,8 @@ export type Prioridad = "1" | "2" | "3"
 // Datos de un evento único a registrar.
 export interface DatosEvento {
   nombreEvento: string
+  nombreSolicitante: string
+  contactoSolicitante: string
   idEspacio: string
   dia: string
   fecha: string
@@ -35,11 +37,35 @@ export interface DatosEvento {
   prioridad: Prioridad
 }
 
+// [NUEVO - Notificar a Responsable] Responsable de una actividad (docente de
+// una clase o solicitante de un evento) al que se podría notificar.
+export interface ResponsableActividad {
+  nombre: string
+  contacto: string
+}
+
+// [NUEVO - Notificar a Responsable] Datos de la actividad desplazada por una
+// expropiación, que el back devuelve para habilitar la notificación.
+export interface ActividadAfectada {
+  nombre: string
+  tipo: string
+  idEspacio: string
+  dia: string
+  fecha: string
+  hInicio: string
+  hFin: string
+  responsable: ResponsableActividad
+}
+
 // Resultado de registrar un evento.
 export interface ResultadoEvento {
   exito: boolean
   mensaje?: string
   error?: string
+  // [NUEVO - Notificar a Responsable] Estado del registro ("EXPROPIACION_REALIZADA"
+  // habilita el botón de notificar) y datos de la actividad desplazada.
+  estado?: string
+  actividadAfectada?: ActividadAfectada | null
 }
 
 // Planilla de ejemplo que simula lo que devolvería el parser de Excel.

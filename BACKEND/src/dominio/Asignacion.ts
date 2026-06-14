@@ -72,6 +72,16 @@ export class Asignacion {
     return this.nombre;
   }
 
+  // [NUEVO - Notificar a Responsable] Acceso uniforme al responsable de la
+  // actividad (por convención, mismo contrato que Evento). En una Asignacion el
+  // responsable es el Docente a cargo.
+  public getResponsableNombre(): string {
+    return this.docente.getNombreCompleto();
+  }
+  public getResponsableContacto(): string {
+    return this.docente.getContacto();
+  }
+
   public cambiarEstado(nuevoEstado: string): void {
     this.estado = nuevoEstado;
     console.log(

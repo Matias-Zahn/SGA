@@ -6,8 +6,16 @@ import { cn } from "@/lib/utils"
 function ScrollArea({
   className,
   children,
+  orientation = "vertical",
   ...props
-}: React.ComponentProps<typeof ScrollAreaPrimitive.Root>) {
+}: React.ComponentProps<typeof ScrollAreaPrimitive.Root> & {
+  // Qué barras mostrar. Las barras se renderizan SIEMPRE como hermanas del
+  // Viewport (requisito de Radix: se posicionan respecto al Root), pero solo
+  // aparecen cuando hay overflow en ese eje.
+  orientation?: "vertical" | "horizontal" | "both"
+}) {
+  const mostrarVertical = orientation === "vertical" || orientation === "both"
+  const mostrarHorizontal = orientation === "horizontal" || orientation === "both"
   return (
     <ScrollAreaPrimitive.Root
       data-slot="scroll-area"
@@ -20,7 +28,8 @@ function ScrollArea({
       >
         {children}
       </ScrollAreaPrimitive.Viewport>
-      <ScrollBar />
+      {mostrarVertical && <ScrollBar orientation="vertical" />}
+      {mostrarHorizontal && <ScrollBar orientation="horizontal" />}
       <ScrollAreaPrimitive.Corner />
     </ScrollAreaPrimitive.Root>
   )

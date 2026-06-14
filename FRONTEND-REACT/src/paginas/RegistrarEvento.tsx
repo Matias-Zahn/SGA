@@ -9,6 +9,8 @@ import { ResumenEvento } from "@/componentes/ResumenEvento"
 import { diaSemanaCapitalizado, formatoISO } from "@/lib/fechas"
 import { DialogResultadoEvento } from "@/componentes/DialogResultadoEvento"
 import { DialogConfirmarExpropiacion } from "@/componentes/DialogConfirmarExpropiacion"
+// [NUEVO - Notificar a Responsable]
+import { DialogNotificarResponsable } from "@/componentes/DialogNotificarResponsable"
 import {
   Card,
   CardContent,
@@ -22,6 +24,8 @@ import {
 // Cuerpo que se envía al endpoint de registro de evento.
 interface BodyEvento {
   nombreEvento: string
+  nombreSolicitante: string
+  contactoSolicitante: string
   idEspacio: string
   dia: string
   fecha: string
@@ -36,6 +40,8 @@ export function RegistrarEvento() {
   // Por defecto: el día de hoy.
   const [datos, setDatos] = useState<DatosEvento>(() => ({
     nombreEvento: "Congreso de Informática",
+    nombreSolicitante: "",
+    contactoSolicitante: "",
     idEspacio: "AULA-101",
     dia: diaSemanaCapitalizado(new Date()),
     fecha: formatoISO(new Date()),
@@ -47,6 +53,9 @@ export function RegistrarEvento() {
   const [resultado, setResultado] = useState<ResultadoEvento | null>(null)
   const [dialogAbierto, setDialogAbierto] = useState(false)
 
+  // [NUEVO - Notificar a Responsable] Estado del diálogo de notificación.
+  const [notificarAbierto, setNotificarAbierto] = useState(false)
+
   // Estado del diálogo de confirmación de expropiación (conflicto "blando").
   const [confirmacionAbierta, setConfirmacionAbierta] = useState(false)
   const [mensajeConfirmacion, setMensajeConfirmacion] = useState("")
@@ -57,6 +66,8 @@ export function RegistrarEvento() {
   function registrar() {
     const body: BodyEvento = {
       nombreEvento: datos.nombreEvento,
+      nombreSolicitante: datos.nombreSolicitante,
+      contactoSolicitante: datos.contactoSolicitante,
       idEspacio: datos.idEspacio,
       dia: datos.dia,
       fecha: datos.fecha,
@@ -135,6 +146,19 @@ export function RegistrarEvento() {
         abierto={dialogAbierto}
         alCambiarAbierto={setDialogAbierto}
         resultado={resultado}
+        // [NUEVO - Notificar a Responsable] Cerramos el resultado y abrimos la
+        // notificación con los datos de la actividad desplazada.
+        alNotificar={() => {
+          setDialogAbierto(false)
+          setNotificarAbierto(true)
+        }}
+      />
+
+      {/* [NUEVO - Notificar a Responsable] */}
+      <DialogNotificarResponsable
+        abierto={notificarAbierto}
+        alCambiarAbierto={setNotificarAbierto}
+        actividad={resultado?.actividadAfectada ?? null}
       />
 
       <DialogConfirmarExpropiacion
