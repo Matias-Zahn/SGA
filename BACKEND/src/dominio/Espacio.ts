@@ -125,9 +125,17 @@ export class Espacio {
     const ocupacion = [];
     const diaPeticion = dia ? dia.trim().toLowerCase() : "";
 
-    // 1. Buscamos las materias de ese día de la semana
+    // 1. Buscamos las materias de ese día de la semana QUE ADEMÁS estén
+    //    vigentes en la fecha consultada (su rango fInicio–fFin contiene la
+    //    fecha). Sin este filtro por fecha, se mostrarían juntas las clases de
+    //    cuatrimestres distintos (mismo día de semana, distinto rango de
+    //    fechas) y se verían superpuestas en la grilla aunque nunca coexistan.
+    //    Las fechas son strings ISO (YYYY-MM-DD), comparables lexicográficamente.
     const materias = this.asignacionesVinculadas.filter(
-      (a) => a.getDia().trim().toLowerCase() === diaPeticion,
+      (a) =>
+        a.getDia().trim().toLowerCase() === diaPeticion &&
+        a.getFInicio() <= fecha &&
+        fecha <= a.getFFin(),
     );
 
     for (const m of materias) {

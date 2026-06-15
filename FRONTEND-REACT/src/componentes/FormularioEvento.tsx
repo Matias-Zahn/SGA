@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react"
-import { CalendarDays } from "lucide-react"
+import { CalendarDays, Mail, User } from "lucide-react"
 import type { DatosEvento, Prioridad } from "@/datos/datosSimulados"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -165,7 +165,7 @@ export function FormularioEvento({
             <SelectTrigger id="prioridad" className="w-full">
               <SelectValue placeholder="Seleccioná una prioridad" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent position="popper">
               {opcionesPrioridad.map((opcion) => (
                 <SelectItem key={opcion.valor} value={opcion.valor}>
                   {opcion.etiqueta}
@@ -175,6 +175,48 @@ export function FormularioEvento({
           </Select>
         </div>
       </div>
+
+      {/* Datos de la persona responsable del evento. */}
+      <div className="space-y-4 border-t pt-4">
+        <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
+          Responsable
+        </p>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div className="space-y-2">
+            <Label htmlFor="nombreSolicitante">Nombre del responsable</Label>
+            <div className="relative">
+              <User className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                id="nombreSolicitante"
+                className="pl-9"
+                placeholder="Ej.: Ana Gómez"
+                value={datos.nombreSolicitante}
+                onChange={(e) =>
+                  actualizarCampo("nombreSolicitante", e.target.value)
+                }
+                required
+              />
+            </div>
+          </div>
+          <div className="space-y-2">
+            <Label htmlFor="contactoSolicitante">Contacto</Label>
+            <div className="relative">
+              <Mail className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                id="contactoSolicitante"
+                className="pl-9"
+                placeholder="Email o teléfono"
+                value={datos.contactoSolicitante}
+                onChange={(e) =>
+                  actualizarCampo("contactoSolicitante", e.target.value)
+                }
+                required
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Button type="submit">Registrar evento</Button>
     </form>
   )

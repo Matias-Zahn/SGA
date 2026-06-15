@@ -1,4 +1,4 @@
-import { Building2, CalendarDays, Clock } from "lucide-react"
+import { Building2, CalendarDays, Clock, Mail, User } from "lucide-react"
 import type { DatosEvento, Prioridad } from "@/datos/datosSimulados"
 import { Card, CardContent } from "@/components/ui/card"
 import { parsearISO } from "@/lib/fechas"
@@ -41,7 +41,7 @@ export function ResumenEvento({ datos }: ResumenEventoProps) {
 
   return (
     <Card className="bg-muted/30 lg:sticky lg:top-8">
-      <CardContent className="space-y-5 pt-6">
+      <CardContent className="space-y-5">
         <div className="space-y-1">
           <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
             Resumen
@@ -80,6 +80,26 @@ export function ResumenEvento({ datos }: ResumenEventoProps) {
               Prioridad{" "}
               <span className="font-medium">{prioridad.etiqueta}</span>
             </span>
+          </div>
+        </div>
+
+        <div className="border-t pt-4">
+          <p className="mb-2.5 text-xs font-medium tracking-wide text-muted-foreground uppercase">
+            Solicitante
+          </p>
+          <div className="space-y-2.5 text-sm">
+            <div className="flex items-center gap-2.5">
+              <User className="size-4 shrink-0 text-muted-foreground" />
+              <span className={cn(!datos.nombreSolicitante.trim() && "text-muted-foreground")}>
+                {datos.nombreSolicitante.trim() || "Sin responsable"}
+              </span>
+            </div>
+            <div className="flex items-center gap-2.5">
+              <Mail className="size-4 shrink-0 text-muted-foreground" />
+              <span className={cn(!datos.contactoSolicitante.trim() && "text-muted-foreground")}>
+                {datos.contactoSolicitante.trim() || "Sin contacto"}
+              </span>
+            </div>
           </div>
         </div>
 

@@ -32,4 +32,14 @@ export class Evento extends RegistroActividad {
   public getContactoSolicitante(): string {
     return this.contactoSolicitante;
   }
+
+  // [NUEVO - Notificar a Responsable] Acceso uniforme al responsable de la
+  // actividad (por convención, mismo contrato que Asignacion). En un Evento el
+  // responsable es su solicitante.
+  public getResponsableNombre(): string {
+    return this.nombreSolicitante;
+  }
+  public getResponsableContacto(): string {
+    return this.contactoSolicitante;
+  }
 }

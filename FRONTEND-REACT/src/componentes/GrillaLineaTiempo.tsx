@@ -5,7 +5,7 @@ import {
   type ActividadGrilla,
   type AulaGrilla,
 } from "@/datos/grillaSimulada"
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
+import { ScrollArea } from "@/components/ui/scroll-area"
 import {
   Tooltip,
   TooltipContent,
@@ -97,11 +97,11 @@ export function GrillaLineaTiempo({ aulas }: GrillaLineaTiempoProps) {
   }
 
   return (
-    <ScrollArea className="w-full">
+    <ScrollArea className="w-full" orientation="horizontal">
       <div className="w-max">
         {/* Eje X: rótulos de horas */}
         <div className="flex border-b">
-          <div className="sticky left-0 z-20 w-24 shrink-0 bg-card" />
+          <div className="sticky left-0 z-30 w-24 shrink-0 bg-card" />
           <div className="relative h-8" style={{ width: ANCHO_TIMELINE }}>
             {HORAS.map((h, i) => (
               <span
@@ -133,7 +133,7 @@ export function GrillaLineaTiempo({ aulas }: GrillaLineaTiempoProps) {
               style={{ animationDelay: `${indice * 30}ms` }}
             >
               {/* Etiqueta de aula (columna fija) */}
-              <div className="sticky left-0 z-10 flex w-24 shrink-0 items-center justify-end border-r bg-card pr-3 text-sm font-medium text-muted-foreground">
+              <div className="sticky left-0 z-30 flex w-24 shrink-0 items-center justify-end border-r bg-card pr-3 text-sm font-medium text-muted-foreground">
                 {aula}
               </div>
 
@@ -227,7 +227,6 @@ export function GrillaLineaTiempo({ aulas }: GrillaLineaTiempoProps) {
           )
         })}
       </div>
-      <ScrollBar orientation="horizontal" />
     </ScrollArea>
   )
 }
