@@ -26,7 +26,7 @@ export function DialogReporteImportacion({
 
   return (
     <Dialog open={abierto} onOpenChange={alCambiarAbierto}>
-      <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-5xl">
+      <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-5xl [scrollbar-color:var(--border)_transparent] [scrollbar-width:thin] [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-border [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar]:w-2.5">
         <DialogHeader>
           <DialogTitle>Reporte de importación</DialogTitle>
           <DialogDescription>

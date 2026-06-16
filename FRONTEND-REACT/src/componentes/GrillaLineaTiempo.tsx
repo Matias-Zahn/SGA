@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react"
 import { SearchX } from "lucide-react"
 import {
   HORA_INICIO,
@@ -84,6 +85,32 @@ function LineaActividad({
 // según su rango horario. Las reprogramadas se dibujan de fondo (capa inferior)
 // y las vigentes encima (opción B: capas superpuestas).
 export function GrillaLineaTiempo({ aulas }: GrillaLineaTiempoProps) {
+  const contenedorRef = useRef<HTMLDivElement>(null)
+
+  // Sobre la grilla: el scroll vertical del mouse se traduce en desplazamiento
+  // horizontal del timeline. Fuera de la grilla el scroll vertical sigue normal
+  // (la página baja para ver las aulas inferiores), porque el listener vive solo
+  // en el viewport de la grilla.
+  useEffect(() => {
+    const viewport = contenedorRef.current?.querySelector<HTMLElement>(
+      '[data-slot="scroll-area-viewport"]',
+    )
+    if (!viewport) return
+
+    function alScrollear(evento: WheelEvent) {
+      // Si no hay overflow horizontal, dejamos pasar el scroll vertical normal.
+      if (viewport!.scrollWidth <= viewport!.clientWidth) return
+      if (evento.deltaY === 0) return
+      viewport!.scrollLeft += evento.deltaY
+      evento.preventDefault()
+    }
+
+    // passive:false es necesario para poder hacer preventDefault y así frenar el
+    // scroll vertical de la página mientras el mouse está sobre la grilla.
+    viewport.addEventListener("wheel", alScrollear, { passive: false })
+    return () => viewport.removeEventListener("wheel", alScrollear)
+  }, [aulas])
+
   if (aulas.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center gap-2 py-16 text-center">
@@ -97,7 +124,11 @@ export function GrillaLineaTiempo({ aulas }: GrillaLineaTiempoProps) {
   }
 
   return (
-    <ScrollArea className="w-full" orientation="horizontal">
+    <ScrollArea
+      ref={contenedorRef}
+      className="w-full"
+      orientation="horizontal"
+    >
       <div className="w-max">
         {/* Eje X: rótulos de horas */}
         <div className="flex border-b">

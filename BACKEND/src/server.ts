@@ -58,11 +58,14 @@ const controladorAsignacion = new ControladorImportarAsignacion(
 );
 
 // SEED: cargamos las asignaciones reutilizando el importador (valida y crea todo).
-const reporteSeed =
-  controladorAsignacion.importarAsignacionMasiva(asignacionesSeed);
-const asignacionesOk = reporteSeed.filter((r) => r.exito).length;
+// [DESACTIVADO] Ahora las asignaciones se cargan desde el frontend importando el
+// archivo CSV (FRONTEND-REACT/ejemplos/planilla-asignacion-ejemplo.csv), que ya
+// contiene todas estas asignaciones. Descomentar para volver al seed automático.
+// const reporteSeed =
+//   controladorAsignacion.importarAsignacionMasiva(asignacionesSeed);
+// const asignacionesOk = reporteSeed.filter((r) => r.exito).length;
 console.log(
-  `[Seed] Materias: ${materiasSeed.length} | Docentes: ${docentesSeed.length} | Aulas: ${aulasSeed.length} | Asignaciones: ${asignacionesOk}/${asignacionesSeed.length}`,
+  `[Seed] Materias: ${materiasSeed.length} | Docentes: ${docentesSeed.length} | Aulas: ${aulasSeed.length} | Asignaciones: 0/${asignacionesSeed.length} (carga por CSV)`,
 );
 
 // El controlador de eventos solo necesita conocer los espacios
