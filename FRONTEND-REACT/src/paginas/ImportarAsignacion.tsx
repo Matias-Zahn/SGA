@@ -1,9 +1,14 @@
-import { useState } from "react"
-import { BookOpen, FileSpreadsheet, Loader2, Users, XCircle } from "lucide-react"
+import { useRef, useState } from "react"
+import { BookOpen, Loader2, Upload, Users, XCircle } from "lucide-react"
 import {
-  planillaSimulada,
+  type FilaAsignacion,
   type ResultadoImportacion,
 } from "@/datos/datosSimulados"
+import {
+  ENCABEZADOS_PLANILLA,
+  ErrorPlanilla,
+  leerPlanilla,
+} from "@/utilidades/leerPlanilla"
 import { EncabezadoPagina } from "@/componentes/EncabezadoPagina"
 import { DialogReporteImportacion } from "@/componentes/DialogReporteImportacion"
 import {
@@ -23,27 +28,28 @@ import {
 } from "@/components/ui/dialog"
 
 // Página para importar la asignación cuatrimestral.
-// Por ahora usa una planilla simulada; el resultado se muestra en un diálogo
-// con el detalle de filas correctas e incorrectas.
+// Se sube un archivo .xlsx/.csv que se lee con SheetJS y se envía al backend;
+// el resultado se muestra en un diálogo con el detalle de filas correctas e
+// incorrectas.
 export function ImportarAsignacion() {
   const [resultados, setResultados] = useState<ResultadoImportacion[]>([])
   const [dialogAbierto, setDialogAbierto] = useState(false)
   const [cargando, setCargando] = useState(false)
-  // Diálogo de error para fallos de conexión con el backend.
+  // Diálogo de error para fallos de conexión o de lectura de archivo.
   const [errorAbierto, setErrorAbierto] = useState(false)
   const [mensajeError, setMensajeError] = useState("")
+  // Referencia al input file para poder resetearlo tras cada importación.
+  const inputArchivoRef = useRef<HTMLInputElement>(null)
 
-  // Envía la planilla al backend real (/api/importar-asignacion). Mantenemos un
-  // retardo simulado para que se vea el indicador de carga antes del reporte.
-  async function importar() {
+  // Envía una planilla (filas ya parseadas) al backend real
+  // (/api/importar-asignacion) y muestra el reporte.
+  async function importar(planilla: FilaAsignacion[]) {
     setCargando(true)
     try {
-      await new Promise((resolver) => setTimeout(resolver, 1500))
-
       const res = await fetch("/api/importar-asignacion", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(planillaSimulada),
+        body: JSON.stringify(planilla),
       })
 
       if (!res.ok) {
@@ -63,6 +69,30 @@ export function ImportarAsignacion() {
     }
   }
 
+  // Lee el .xlsx/.csv elegido con SheetJS y lo envía al backend. Si la planilla
+  // no tiene la estructura esperada, muestra el error sin llamar al backend.
+  async function alElegirArchivo(evento: React.ChangeEvent<HTMLInputElement>) {
+    const archivo = evento.target.files?.[0]
+    if (!archivo) return
+
+    setCargando(true)
+    try {
+      const planilla = await leerPlanilla(archivo)
+      await importar(planilla)
+    } catch (error) {
+      setMensajeError(
+        error instanceof ErrorPlanilla
+          ? error.message
+          : "No se pudo leer el archivo. Asegurate de que sea un .xlsx o .csv válido.",
+      )
+      setErrorAbierto(true)
+      setCargando(false)
+    } finally {
+      // Reseteamos el input para poder volver a elegir el mismo archivo.
+      if (inputArchivoRef.current) inputArchivoRef.current.value = ""
+    }
+  }
+
   return (
     <div>
       <EncabezadoPagina
@@ -75,13 +105,23 @@ export function ImportarAsignacion() {
           <CardHeader>
             <CardTitle>Asignación cuatrimestral</CardTitle>
             <CardDescription>
-              La lectura del archivo .xlsx se implementará más adelante. Por
-              ahora se procesa una planilla de ejemplo con{" "}
-              {planillaSimulada.length} filas.
+              Subí la planilla en formato .xlsx o .csv con las columnas:{" "}
+              {ENCABEZADOS_PLANILLA.join(", ")}.
             </CardDescription>
           </CardHeader>
-          <CardContent>
-            <Button onClick={importar} className="gap-2" disabled={cargando}>
+          <CardContent className="flex flex-col gap-3">
+            <input
+              ref={inputArchivoRef}
+              type="file"
+              accept=".xlsx,.xls,.csv"
+              onChange={alElegirArchivo}
+              className="hidden"
+            />
+            <Button
+              onClick={() => inputArchivoRef.current?.click()}
+              className="gap-2"
+              disabled={cargando}
+            >
               {cargando ? (
                 <>
                   <Loader2 className="size-4 animate-spin" />
@@ -89,8 +129,8 @@ export function ImportarAsignacion() {
                 </>
               ) : (
                 <>
-                  <FileSpreadsheet className="size-4" />
-                  Simular importación de planilla
+                  <Upload className="size-4" />
+                  Subir planilla (.xlsx / .csv)
                 </>
               )}
             </Button>
